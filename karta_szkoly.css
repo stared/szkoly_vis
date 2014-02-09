@@ -1,0 +1,8 @@
+div {
+	/*position: relative;*/
+	padding: 12px;
+	background: #eee;
+	color: #ddd;
+	border: solid 1px #aaa;
+	border-radius: 4px;
+}
