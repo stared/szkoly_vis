@@ -5,7 +5,6 @@ var mult, skala;
 
 d3.json("gim_bb.json", function (error, data) {
   dane = data;
-  wybranaDana = data[wybraneId];
   init();
   update();
 });
@@ -15,7 +14,6 @@ function init () {
   d3.select("div#wybor select#szkola")
     .on("change", function () {
       wybraneId = parseInt(this.value, 10);
-      wybranaDana = dane[wybraneId];
       update();
     })
     .selectAll("option")
@@ -44,6 +42,13 @@ function init () {
     .domain([100 - 100/mult, 100 + 100/mult])
     .range([0, 200]);
 
+  var xAxis = d3.svg.axis()
+    .scale(skala)
+    .orient("bottom")
+    .ticks(6)
+    .tickSize(1);
+    // .tickFormat(d3.format(".2g"));
+
   porownania = d3.select("div#porownania").append("svg")
     .attr("width", 200)
     .attr("height", 200)
@@ -55,17 +60,30 @@ function init () {
     return - dane[i].sr_wynik_egz_hum + dane[j].sr_wynik_egz_hum; });
   kolejnosc_hum = reverse_permutation(kolejnosc_hum);
 
-  paskownia_hum = d3.select("div#porownania_paski").append("svg")
-    .attr("width", 200)
-    .attr("height", 500)
-      .selectAll('rect');
+  d3.select("div#porownania_paski").append("svg")
+    .attr("width", 210)
+    .attr("height", 220)
+      .append('g')
+        .attr('class', 'osx')
+        .attr("transform", "translate(" + 0 + "," + 200 + ")")
+        .call(xAxis);
+
 
 }
 
 
 function update () {
 
-  console.log(wybranaDana);
+  wybranaDana = dane[wybraneId];
+
+  d3.select("#adres #nazwa").html(wybranaDana.nazwa);
+  d3.select("#adres #adres").html(wybranaDana.adres);
+  d3.select("#adres #kod_pocztowy").html(wybranaDana.pna);
+  d3.select("#adres #poczta").html(wybranaDana.poczta);
+  d3.select("#adres #www")
+    .attr('href', wybranaDana.www)
+    .html(wybranaDana.www);
+  d3.select("#adres #tel").html(wybranaDana.telefon);
 
   if (wybranaDana.procent_dziewczat != null) {
     demog.selectAll('rect')
@@ -98,17 +116,23 @@ function update () {
 
   paskownia_hum
     .enter()
-      .append('rect');
+      .append('rect')
+        .attr('class', 'pasek');
+
+  var odl_paskowa = 200 / Math.max(dane.length, 20);
 
   paskownia_hum
     .attr("x", function (d) { return skala(d.sr_wynik_egz_hum - d.stdev_wynik_egz_hum); })
-    .attr("y", function (d, i) { return 10 * kolejnosc_hum[i]; } )
+    .attr("y", function (d, i) { return odl_paskowa * kolejnosc_hum[i]; } )
     .attr("width", function (d) { return 2 * mult * d.stdev_wynik_egz_hum; })
-    .attr("height", 8)
+    .attr("height", 0.8 * odl_paskowa)
     .style("fill", function (d, i) {
       return i == wybraneId ? "#a55" : "#5a5";
     })
-    .style("opacity", 0.5);
+    .on('click', function (d, i) {
+      wybraneId = i;
+      update();
+    });
 
   paskownia_hum.exit().remove();
 
@@ -130,3 +154,4 @@ function reverse_permutation (perm) {
   }
   return res;
 }
+
