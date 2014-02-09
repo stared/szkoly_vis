@@ -60,7 +60,7 @@ function init () {
     return - dane[i].sr_wynik_egz_hum + dane[j].sr_wynik_egz_hum; });
   kolejnosc_hum = reverse_permutation(kolejnosc_hum);
 
-  d3.select("div#porownania_paski").append("svg")
+  d3.select("div#porownania_paski_hum").append("svg")
     .attr("width", 210)
     .attr("height", 220)
       .append('g')
@@ -68,6 +68,17 @@ function init () {
         .attr("transform", "translate(" + 0 + "," + 200 + ")")
         .call(xAxis);
 
+  kolejnosc_mp = range(dane.length).sort(function (i, j) {
+    return - dane[i].sr_wynik_egz_mp + dane[j].sr_wynik_egz_mp; });
+  kolejnosc_mp = reverse_permutation(kolejnosc_mp);
+
+  d3.select("div#porownania_paski_mp").append("svg")
+    .attr("width", 210)
+    .attr("height", 220)
+      .append('g')
+        .attr('class', 'osx')
+        .attr("transform", "translate(" + 0 + "," + 200 + ")")
+        .call(xAxis);
 
 }
 
@@ -111,7 +122,11 @@ function update () {
       })
       .style("opacity", 0.1);
 
-  paskownia_hum = d3.select("div#porownania_paski svg").selectAll('rect')
+  //
+  // Wyniki human
+  //
+
+  paskownia_hum = d3.select("div#porownania_paski_hum svg").selectAll('rect')
     .data(dane);
 
   paskownia_hum
@@ -136,6 +151,35 @@ function update () {
 
   paskownia_hum.exit().remove();
 
+  //
+  // Wyniki matematyczno-przyrodnicze
+  //
+
+  paskownia_mp = d3.select("div#porownania_paski_mp svg").selectAll('rect')
+    .data(dane);
+
+  paskownia_mp
+    .enter()
+      .append('rect')
+        .attr('class', 'pasek');
+
+  var odl_paskowa = 200 / Math.max(dane.length, 20);
+
+  paskownia_mp
+    .attr("x", function (d) { return skala(d.sr_wynik_egz_mp - d.stdev_wynik_egz_mp); })
+    .attr("y", function (d, i) { return odl_paskowa * kolejnosc_mp[i]; } )
+    .attr("width", function (d) { return 2 * mult * d.stdev_wynik_egz_mp; })
+    .attr("height", 0.8 * odl_paskowa)
+    .style("fill", function (d, i) {
+      return i == wybraneId ? "#a55" : "#5a5";
+    })
+    .on('click', function (d, i) {
+      wybraneId = i;
+      update();
+    });
+
+  paskownia_mp.exit().remove();
+
 }
 
 
@@ -155,3 +199,14 @@ function reverse_permutation (perm) {
   return res;
 }
 
+// function plakietki (d) {
+//   var res = [];
+//   if (d.typ_szkoly == "gimn.") {
+//     res.push("<span class='plakietka'>gimnazjum</span>");
+//   } else if (d.typ_szkoly == "SP") {
+//     res.push("<span class='plakietka'>szkoła podstawowa</span>");
+//   }
+
+
+//   // też braki wyników itd
+// }
