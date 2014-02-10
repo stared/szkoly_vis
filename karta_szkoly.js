@@ -80,7 +80,10 @@ function init () {
         .attr("transform", "translate(" + 0 + "," + 200 + ")")
         .call(xAxis);
 
+  wskaznik_hum = new widget_wskaznik("#wskazniki #hum", [60, 140]);
+
 }
+
 
 
 function update () {
@@ -192,6 +195,11 @@ function update () {
 
   paskownia_mp.exit().remove();
 
+  //
+  // Wskaźniki
+  //
+  wskaznik_hum.uaktualnij(wybranaDana.sr_wynik_egz_hum);
+
 }
 
 
@@ -243,4 +251,54 @@ function plakietki (d) {
   // też braki wyników itd?
 
   return res.join("\n");
+}
+
+
+function widget_wskaznik (selector, zakres) {
+  this.svg = d3.select(selector).append("svg")
+    .attr("width", 150)
+    .attr("height", 20);
+
+  this.skala = d3.scale.linear()
+    .domain(zakres)
+    .range([0, 150]);
+
+  this.kolorki = d3.scale.linear()
+    .domain([zakres[0], 100, zakres[1]])
+    .range(['#faa', '#fff', '#afa']);
+
+  var skala = this.skala;
+  var kolorki = this.kolorki;
+
+  this.svg.selectAll('.tlo')
+    .data([60,70,80,90,100,110,120,130])
+    .enter()
+      .append('rect')
+        .attr('class', 'tlo')
+        .attr('x', function (d, i) { return skala(d + 5); })
+        .attr('y', 0)
+        .attr('width', skala(10) - skala(0))
+        .attr('height', 10)
+        .style('fill', function (d, i) { return kolorki(d + 5); });
+
+  this.svg.append('rect')
+    .attr('class', 'wskaznik')
+    .attr('x', this.skala(100))
+    .attr('y', 0)
+    .attr('width', 2)
+    .attr('height', 10)
+    .style('fill','#000');
+
+  this.uaktualnij = function (wartosc) {
+    if (wartosc != null) {
+      this.svg.select(".wskaznik")
+        .transition().duration(500)
+          .style('opacity', 1)
+          .attr('x', this.skala(wartosc));
+    } else {
+      this.svg.select(".wskaznik")
+        .transition().duration(500)
+          .style('opacity', 0);
+    }
+  };
 }
