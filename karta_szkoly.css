@@ -63,3 +63,10 @@ div#porownania_paski_mp {
 	opacity: 1;
 }
 
+span.plakietka {
+	padding: 2px;
+	background: #afa;
+	color: #000;
+	border: solid 1px #6b6;
+	border-radius: 2px;
+}

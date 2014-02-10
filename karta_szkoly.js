@@ -96,6 +96,8 @@ function update () {
     .html(wybranaDana.www);
   d3.select("#adres #tel").html(wybranaDana.telefon);
 
+  d3.select("#plakietki").html(plakietki(wybranaDana));
+
   if (wybranaDana.procent_dziewczat != null) {
     demog.selectAll('rect')
       .style('opacity', 1);
@@ -199,14 +201,36 @@ function reverse_permutation (perm) {
   return res;
 }
 
-// function plakietki (d) {
-//   var res = [];
-//   if (d.typ_szkoly == "gimn.") {
-//     res.push("<span class='plakietka'>gimnazjum</span>");
-//   } else if (d.typ_szkoly == "SP") {
-//     res.push("<span class='plakietka'>szkoła podstawowa</span>");
-//   }
+function plakietki (d) {
+  var res = [];
 
+  if (d.typ_szkoly == "gimn.") {
+    res.push("<span class='plakietka'>gimnazjum</span>");
+  } else if (d.typ_szkoly == "SP") {
+    res.push("<span class='plakietka'>szkoła podstawowa</span>");
+  }
 
-//   // też braki wyników itd
-// }
+  if (d.publiczna === false) {
+    res.push("<span class='plakietka'>szkoła prywatna</span>");
+  }
+  if (d.dla_doroslych === true) {
+    res.push("<span class='plakietka'>szkoła dla dorosłych</span>");
+  }
+  if (d.specjalna === true) {
+    res.push("<span class='plakietka'>szkoła specjalna</span>");
+  }
+  if (d.przyszpitalna === true) {
+    res.push("<span class='plakietka'>szkoła przyszpitalna</span>");
+  }
+
+  if (d.procent_dziewczat != null) {
+    if (d.procent_dziewczat > 99) {
+      res.push("<span class='plakietka'>szkoła żeńska</span>");
+    } else if (d.procent_dziewczat < 1) {
+      res.push("<span class='plakietka'>szkoła męska</span>");
+    }
+  }
+  // też braki wyników itd?
+
+  return res.join("\n");
+}
