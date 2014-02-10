@@ -80,7 +80,9 @@ function init () {
         .attr("transform", "translate(" + 0 + "," + 200 + ")")
         .call(xAxis);
 
-  wskaznik_hum = new widget_wskaznik("#wskazniki #hum", [60, 140]);
+  wskaznik_hum = new widget_wskaznik("#wskazniki #hum", [60, 140], "Egz. humanistyczny");
+  wskaznik_mp = new widget_wskaznik("#wskazniki #mp", [60, 140], "Egz. mat-przyr.");
+  // wskaznik_ewd = new widget_wskaznik("#wskazniki #ewd", [60, 140], "EWD");
 
 }
 
@@ -199,6 +201,8 @@ function update () {
   // Wskaźniki
   //
   wskaznik_hum.uaktualnij(wybranaDana.sr_wynik_egz_hum);
+  wskaznik_mp.uaktualnij(wybranaDana.sr_wynik_egz_mp);
+  // wskaznik_ewd.uaktualnij(wybranaDana.sr_wynik_egz_hum);
 
 }
 
@@ -223,29 +227,29 @@ function plakietki (d) {
   var res = [];
 
   if (d.typ_szkoly == "gimn.") {
-    res.push("<span class='plakietka'>gimnazjum</span>");
+    res.push("<span class='plakietka'>gimnazjum</span></br>");
   } else if (d.typ_szkoly == "SP") {
-    res.push("<span class='plakietka'>szkoła podstawowa</span>");
+    res.push("<span class='plakietka'>szkoła podstawowa</span></br>");
   }
 
   if (d.publiczna === false) {
-    res.push("<span class='plakietka'>szkoła prywatna</span>");
+    res.push("<span class='plakietka'>szkoła prywatna</span></br>");
   }
   if (d.dla_doroslych === true) {
-    res.push("<span class='plakietka'>szkoła dla dorosłych</span>");
+    res.push("<span class='plakietka'>szkoła dla dorosłych</span></br>");
   }
   if (d.specjalna === true) {
-    res.push("<span class='plakietka'>szkoła specjalna</span>");
+    res.push("<span class='plakietka'>szkoła specjalna</span></br>");
   }
   if (d.przyszpitalna === true) {
-    res.push("<span class='plakietka'>szkoła przyszpitalna</span>");
+    res.push("<span class='plakietka'>szkoła przyszpitalna</span></br>");
   }
 
   if (d.procent_dziewczat != null) {
     if (d.procent_dziewczat > 99) {
-      res.push("<span class='plakietka'>szkoła żeńska</span>");
+      res.push("<span class='plakietka'>szkoła żeńska</span></br>");
     } else if (d.procent_dziewczat < 1) {
-      res.push("<span class='plakietka'>szkoła męska</span>");
+      res.push("<span class='plakietka'>szkoła męska</span></br>");
     }
   }
   // też braki wyników itd?
@@ -254,7 +258,13 @@ function plakietki (d) {
 }
 
 
-function widget_wskaznik (selector, zakres) {
+function widget_wskaznik (selector, zakres, nazwa) {
+
+  this.etykieta = d3.select(selector).append("span");
+  d3.select(selector).append("br");
+  d3.select(selector).append("br");
+  this.nazwa = nazwa;
+
   this.svg = d3.select(selector).append("svg")
     .attr("width", 150)
     .attr("height", 20);
@@ -290,12 +300,19 @@ function widget_wskaznik (selector, zakres) {
     .style('fill','#000');
 
   this.uaktualnij = function (wartosc) {
+
     if (wartosc != null) {
+
+      this.etykieta.html(this.nazwa + ": " + wartosc.toFixed(1));
+
       this.svg.select(".wskaznik")
         .transition().duration(500)
           .style('opacity', 1)
           .attr('x', this.skala(wartosc));
     } else {
+
+      this.etykieta.html(this.nazwa + ": (brak danych)");
+
       this.svg.select(".wskaznik")
         .transition().duration(500)
           .style('opacity', 0);
