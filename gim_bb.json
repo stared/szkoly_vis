@@ -1,6 +1,6 @@
 [
   {
-    "www": "gim16bielsko.comoj.com",
+    "www": "http://gim16bielsko.comoj.com",
     "rok": 2013,
     "publiczna": true,
     "adres": "Asnyka 30",
@@ -168,7 +168,7 @@
     "id_szkoly": 19608
   },
   {
-    "www": "www.g1bb.republika.pl",
+    "www": "http://www.g1bb.republika.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Straconki 25",
@@ -336,7 +336,7 @@
     "id_szkoly": 19619
   },
   {
-    "www": "www.gimn3.neostrada.pl",
+    "www": "http://www.gimn3.neostrada.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Broniewskiego 23",
@@ -392,7 +392,7 @@
     "id_szkoly": 19606
   },
   {
-    "www": "www.gim4.bb.prv.pl",
+    "www": "http://www.gim4.bb.prv.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Lipnicka 226",
@@ -448,7 +448,7 @@
     "id_szkoly": 19607
   },
   {
-    "www": "www.gm6bielsko.webpark.pl",
+    "www": "http://www.gm6bielsko.webpark.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "W. Witosa 96",
@@ -504,7 +504,7 @@
     "id_szkoly": 19609
   },
   {
-    "www": "www.gimnazjum7.com.pl",
+    "www": "http://www.gimnazjum7.com.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Pocztowa 28A",
@@ -560,7 +560,7 @@
     "id_szkoly": 19610
   },
   {
-    "www": "gim8bb.oswiata.org.pl",
+    "www": "http://gim8bb.oswiata.org.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Doliny Mi\u0119tusiej 5",
@@ -616,7 +616,7 @@
     "id_szkoly": 19611
   },
   {
-    "www": "www.gim13.compuless.pl",
+    "www": "http://www.gim13.compuless.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Bratk\u00f3w 6",
@@ -728,7 +728,7 @@
     "id_szkoly": 19615
   },
   {
-    "www": "www.gimnazjum15.bielsko.pl",
+    "www": "http://www.gimnazjum15.bielsko.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Cieszy\u0144ska 385",
@@ -784,7 +784,7 @@
     "id_szkoly": 19616
   },
   {
-    "www": "www.gimnazjum11.civ.pl",
+    "www": "http://www.gimnazjum11.civ.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Emilii Plater 3",
@@ -840,7 +840,7 @@
     "id_szkoly": 19620
   },
   {
-    "www": "www.edu-sport.pl",
+    "www": "http://www.edu-sport.pl",
     "rok": 2013,
     "publiczna": false,
     "adres": "Pl. Wolno\u015bci 10",
@@ -896,7 +896,7 @@
     "id_szkoly": 19624
   },
   {
-    "www": "www.szkolacbm.eu",
+    "www": "http://www.szkolacbm.eu",
     "rok": 2013,
     "publiczna": true,
     "adres": "Broniewskiego 13",
@@ -952,7 +952,7 @@
     "id_szkoly": 19626
   },
   {
-    "www": "www.nowa-szkola.pl",
+    "www": "http://www.nowa-szkola.pl",
     "rok": 2013,
     "publiczna": false,
     "adres": "3 maja 17",
@@ -1064,7 +1064,7 @@
     "id_szkoly": 19629
   },
   {
-    "www": "www.g9bb.zsoak.edu.pl",
+    "www": "http://www.g9bb.zsoak.edu.pl",
     "rok": 2013,
     "publiczna": true,
     "adres": "Sternicza 4",
@@ -1120,7 +1120,7 @@
     "id_szkoly": 19630
   },
   {
-    "www": "www.kopalinski.edu.pl",
+    "www": "http://www.kopalinski.edu.pl",
     "rok": 2013,
     "publiczna": false,
     "adres": "Legion\u00f3w 24",
@@ -1176,7 +1176,7 @@
     "id_szkoly": 19631
   },
   {
-    "www": "www.rejbb.pl",
+    "www": "http://www.rejbb.pl",
     "rok": 2013,
     "publiczna": false,
     "adres": "A. Frycza Modrzewskiego 12",
@@ -1400,7 +1400,7 @@
     "id_szkoly": 19634
   },
   {
-    "www": "www.zsktk.edu.pl",
+    "www": "http://www.zsktk.edu.pl",
     "rok": 2013,
     "publiczna": false,
     "adres": "Krasi\u0144skiego 17",
@@ -1456,7 +1456,7 @@
     "id_szkoly": 19635
   },
   {
-    "www": "www.bsm.bielsko.pl",
+    "www": "http://www.bsm.bielsko.pl",
     "rok": 2013,
     "publiczna": false,
     "adres": "Ta\u0144skiego 5",
