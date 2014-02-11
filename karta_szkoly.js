@@ -78,10 +78,10 @@ function init () {
         .attr("transform", "translate(" + 0 + "," + 200 + ")")
         .call(xAxis);
 
-  wskaznik_hum = new widget_wskaznik("#wskazniki #hum", [60, 140], "Egz. humanistyczny");
-  wskaznik_mp = new widget_wskaznik("#wskazniki #mp", [60, 140], "Egz. mat-przyr.");
-  wskaznik_ewd_hum = new widget_wskaznik_ewd("#wskazniki #ewd_hum", [-10, 10], "EWD hum.");
-  wskaznik_ewd_mp = new widget_wskaznik_ewd("#wskazniki #ewd_mp", [-10, 10], "EWD m.-p.");
+  wskaznik_hum = new widget_wskaznik("#wskazniki #hum", "Egz. humanistyczny");
+  wskaznik_mp = new widget_wskaznik("#wskazniki #mp", "Egz. mat-przyr.");
+  wskaznik_ewd_hum = new widget_wskaznik_ewd("#wskazniki #ewd_hum", "EWD hum.");
+  wskaznik_ewd_mp = new widget_wskaznik_ewd("#wskazniki #ewd_mp", "EWD m.-p.");
 
 }
 
@@ -275,7 +275,9 @@ function plakietki (d) {
 }
 
 
-function widget_wskaznik (selector, zakres, nazwa) {
+function widget_wskaznik (selector, nazwa) {
+
+  var zakres = [60, 140];
 
   this.etykieta = d3.select(selector).append("span");
   d3.select(selector).append("br");
@@ -338,7 +340,9 @@ function widget_wskaznik (selector, zakres, nazwa) {
 }
 
 
-function widget_wskaznik_ewd (selector, zakres, nazwa) {
+function widget_wskaznik_ewd (selector, nazwa) {
+
+  var zakres = [-10, 10];
 
   this.etykieta = d3.select(selector).append("span");
   d3.select(selector).append("br");
