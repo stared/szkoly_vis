@@ -142,7 +142,7 @@ function update () {
     .append('ellipse')
       .attr('class', 'pasek')
       .attr("cx", function (d) { return skala2d((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2); })
-      .attr("cy", function (d) { return skala2d(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) - skala2d(0) + 50; })
+      .attr("cy", function (d) { return -skala2d(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) + skala2d(0) + 50; })
       .attr("rx", function (d) { return 5; })
       .attr("ry", function (d) { return 5; })
       .style("opacity", 0.3);
