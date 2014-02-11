@@ -51,9 +51,7 @@ function init () {
 
   porownania = d3.select("div#porownania").append("svg")
     .attr("width", 200)
-    .attr("height", 200)
-      .selectAll('ellipse')
-      .data(dane);
+    .attr("height", 200);
       
 
   kolejnosc_hum = range(dane.length).sort(function (i, j) {
@@ -108,9 +106,11 @@ function update () {
   if (wybranaDana.procent_dziewczat != null) {
     d3.select("#demografia #wielkosc_klasy").html("Śr. wielkość klasy: " + (wybranaDana.liczba_uczniow/wybranaDana.oddzialy).toFixed(1));
     d3.select("#demografia #dziewczeta").html("Dziewcząt: " + wybranaDana.procent_dziewczat.toFixed(1) + "%");
+    d3.select("#demografia #chlopcy").html("Chłopców: " + (100 - wybranaDana.procent_dziewczat).toFixed(1) + "%");
   } else {
     d3.select("#demografia #wielkosc_klasy").html("Śr. wielkość klasy: (brak danych)");
     d3.select("#demografia #dziewczeta").html("Dziewcząt: (brak danych)");
+    d3.select("#demografia #chlopcy").html("Chłopcy: (brak danych)");
   }
 
   if (wybranaDana.procent_dziewczat != null) {
@@ -128,16 +128,25 @@ function update () {
       .style("opacity", 0);
   }
 
+  porownania = d3.select("div#porownania svg").selectAll('ellipse').data(dane);
+
   porownania.enter()
     .append('ellipse')
-      .attr("cx", function (d) { return skala(d.sr_wynik_egz_hum); })
-      .attr("cy", function (d) { return skala(d.sr_wynik_egz_mp); })
-      .attr("rx", function (d) { return mult * d.bs_sr_wynik_egz_hum; })
-      .attr("ry", function (d) { return mult * d.bs_sr_wynik_egz_hum; })
-      .style("fill", function (d, i) {
-        return i == wybraneId ? "#a00" : "#0a0";
-      })
-      .style("opacity", 0.1);
+      .attr('class', 'pasek')
+      .attr("cx", function (d) { return skala((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2); })
+      .attr("cy", function (d) { return skala(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) - skala(0) + 50; })
+      .attr("rx", function (d) { return 5; })
+      .attr("ry", function (d) { return 5; })
+      .style("opacity", 0.3);
+
+  porownania
+    .style("fill", function (d, i) {
+      return i == wybraneId ? "#a00" : "#0a0";
+    })
+    .on('click', function (d, i) {
+      wybraneId = i;
+      update();
+    });
 
   //
   // Wyniki human
@@ -227,34 +236,40 @@ function plakietki (d) {
   var res = [];
 
   if (d.typ_szkoly == "gimn.") {
-    res.push("<span class='plakietka'>gimnazjum</span></br>");
+    res.push("<span class='plakietka'>gimnazjum</span>");
   } else if (d.typ_szkoly == "SP") {
-    res.push("<span class='plakietka'>szkoła podstawowa</span></br>");
+    res.push("<span class='plakietka'>szkoła podstawowa</span>");
   }
 
   if (d.publiczna === false) {
-    res.push("<span class='plakietka'>szkoła prywatna</span></br>");
+    res.push("<span class='plakietka'>szkoła prywatna</span>");
   }
   if (d.dla_doroslych === true) {
-    res.push("<span class='plakietka'>szkoła dla dorosłych</span></br>");
+    res.push("<span class='plakietka'>szkoła dla dorosłych</span>");
   }
   if (d.specjalna === true) {
-    res.push("<span class='plakietka'>szkoła specjalna</span></br>");
+    res.push("<span class='plakietka'>szkoła specjalna</span>");
   }
   if (d.przyszpitalna === true) {
-    res.push("<span class='plakietka'>szkoła przyszpitalna</span></br>");
+    res.push("<span class='plakietka'>szkoła przyszpitalna</span>");
   }
 
   if (d.procent_dziewczat != null) {
     if (d.procent_dziewczat > 99) {
-      res.push("<span class='plakietka'>szkoła żeńska</span></br>");
+      res.push("<span class='plakietka'>szkoła żeńska</span>");
     } else if (d.procent_dziewczat < 1) {
-      res.push("<span class='plakietka'>szkoła męska</span></br>");
+      res.push("<span class='plakietka'>szkoła męska</span>");
     }
+  }
+
+  if (d.sr_wynik_egz_obu_gwiazdki_pow == 4) {
+    res.push("<span class='plakietka'>szkoła b. dobra</span>");
+  } else if (d.sr_wynik_egz_obu_gwiazdki_pow == 5) {
+    res.push("<span class='plakietka'>szkoła wybitna</span>");
   }
   // też braki wyników itd?
 
-  return res.join("\n");
+  return res.join("</br></br>\n");
 }
 
 
