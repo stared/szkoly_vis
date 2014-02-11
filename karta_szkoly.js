@@ -80,7 +80,8 @@ function init () {
 
   wskaznik_hum = new widget_wskaznik("#wskazniki #hum", [60, 140], "Egz. humanistyczny");
   wskaznik_mp = new widget_wskaznik("#wskazniki #mp", [60, 140], "Egz. mat-przyr.");
-  // wskaznik_ewd = new widget_wskaznik("#wskazniki #ewd", [60, 140], "EWD");
+  wskaznik_ewd_hum = new widget_wskaznik_ewd("#wskazniki #ewd_hum", [-10, 10], "EWD hum.");
+  wskaznik_ewd_mp = new widget_wskaznik_ewd("#wskazniki #ewd_mp", [-10, 10], "EWD m.-p.");
 
 }
 
@@ -211,7 +212,8 @@ function update () {
   //
   wskaznik_hum.uaktualnij(wybranaDana.sr_wynik_egz_hum);
   wskaznik_mp.uaktualnij(wybranaDana.sr_wynik_egz_mp);
-  // wskaznik_ewd.uaktualnij(wybranaDana.sr_wynik_egz_hum);
+  wskaznik_ewd_hum.uaktualnij(wybranaDana.ewd_min90_hum, wybranaDana.ewd_max90_hum);
+  wskaznik_ewd_mp.uaktualnij(wybranaDana.ewd_min90_mp, wybranaDana.ewd_max90_mp);
 
 }
 
@@ -300,7 +302,7 @@ function widget_wskaznik (selector, zakres, nazwa) {
     .enter()
       .append('rect')
         .attr('class', 'tlo')
-        .attr('x', function (d, i) { return skala(d + 5); })
+        .attr('x', function (d, i) { return skala(d); })
         .attr('y', 0)
         .attr('width', skala(10) - skala(0))
         .attr('height', 10)
@@ -324,6 +326,70 @@ function widget_wskaznik (selector, zakres, nazwa) {
         .transition().duration(500)
           .style('opacity', 1)
           .attr('x', this.skala(wartosc));
+    } else {
+
+      this.etykieta.html(this.nazwa + ": (brak danych)");
+
+      this.svg.select(".wskaznik")
+        .transition().duration(500)
+          .style('opacity', 0);
+    }
+  };
+}
+
+
+function widget_wskaznik_ewd (selector, zakres, nazwa) {
+
+  this.etykieta = d3.select(selector).append("span");
+  d3.select(selector).append("br");
+  d3.select(selector).append("br");
+  this.nazwa = nazwa;
+
+  this.svg = d3.select(selector).append("svg")
+    .attr("width", 150)
+    .attr("height", 20);
+
+  this.skala = d3.scale.linear()
+    .domain(zakres)
+    .range([0, 150]);
+
+  this.kolorki = d3.scale.linear()
+    .domain([zakres[0], 0, zakres[1]])
+    .range(['#faa', '#fff', '#afa']);
+
+  var skala = this.skala;
+  var kolorki = this.kolorki;
+
+  this.svg.selectAll('.tlo')
+    .data([-10,-7.5,-5,-2.5,0,2.5,5,7.5])
+    .enter()
+      .append('rect')
+        .attr('class', 'tlo')
+        .attr('x', function (d, i) { return skala(d); })
+        .attr('y', 0)
+        .attr('width', skala(2.5) - skala(0))
+        .attr('height', 10)
+        .style('fill', function (d, i) { return kolorki(d + 2.5); });
+
+  this.svg.append('rect')
+    .attr('class', 'wskaznik')
+    .attr('x', this.skala(100))
+    .attr('y', 0)
+    .attr('width', 2)
+    .attr('height', 10)
+    .style('fill','#000');
+
+  this.uaktualnij = function (wartosc1, wartosc2) {
+
+    if (wartosc1 != null) {
+
+      this.etykieta.html(this.nazwa + ": od " + wartosc1.toFixed(1) + " do " + wartosc2.toFixed(1));
+
+      this.svg.select(".wskaznik")
+        .transition().duration(500)
+          .style('opacity', 0.5)
+          .attr('x', this.skala(wartosc1))
+          .attr('width', this.skala(wartosc2) - this.skala(wartosc1));
     } else {
 
       this.etykieta.html(this.nazwa + ": (brak danych)");
