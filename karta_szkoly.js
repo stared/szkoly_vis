@@ -2,6 +2,7 @@ var dane = [];
 var wybraneId = 0;
 var wybranaDana = {};
 var mult, skala;
+var tooltip;
 
 d3.json("gim_bb.json", function (error, data) {
   dane = data;
@@ -10,6 +11,8 @@ d3.json("gim_bb.json", function (error, data) {
 });
 
 function init () {
+
+  tooltip = d3.select('div.tooltip');
 
   d3.select("div#wybor select#szkola")
     .on("change", function () {
@@ -131,11 +134,15 @@ function update () {
 
   porownania = d3.select("div#porownania svg").selectAll('ellipse').data(dane);
 
+  var skala2d = d3.scale.linear()
+    .domain([100 - 100/4, 100 + 100/4])
+    .range([0, 200]);
+
   porownania.enter()
     .append('ellipse')
       .attr('class', 'pasek')
-      .attr("cx", function (d) { return skala((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2); })
-      .attr("cy", function (d) { return skala(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) - skala(0) + 50; })
+      .attr("cx", function (d) { return skala2d((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2); })
+      .attr("cy", function (d) { return skala2d(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) - skala2d(0) + 50; })
       .attr("rx", function (d) { return 5; })
       .attr("ry", function (d) { return 5; })
       .style("opacity", 0.3);
@@ -171,6 +178,15 @@ function update () {
     .style("fill", function (d, i) {
       return i == wybraneId ? "#a55" : "#5a5";
     })
+    .on('mouseover', function (d) {
+      var wklad = d.nazwa + "<br>" +
+        "Śr. wynik: " +  d.sr_wynik_egz_hum.toFixed(1) + "<br>" +
+        "Ponad połowa uczniów w przedziale:<br>od " +
+        (d.sr_wynik_egz_hum - d.stdev_wynik_egz_hum).toFixed(1) + " do " +
+        (d.sr_wynik_egz_hum  +d.stdev_wynik_egz_hum).toFixed(1);
+      tooltipShow(wklad);
+    })
+    .on('mouseout', function () { tooltipOut(); })
     .on('click', function (d, i) {
       wybraneId = i;
       update();
@@ -200,6 +216,15 @@ function update () {
     .style("fill", function (d, i) {
       return i == wybraneId ? "#a55" : "#5a5";
     })
+    .on('mouseover', function (d) {
+      var wklad = d.nazwa + "<br>" +
+        "Śr. wynik: " +  d.sr_wynik_egz_mp.toFixed(1) + "<br>" +
+        "Ponad połowa uczniów w przedziale:<br>od " +
+        (d.sr_wynik_egz_mp - d.stdev_wynik_egz_mp).toFixed(1) + " do " +
+        (d.sr_wynik_egz_mp + d.stdev_wynik_egz_mp).toFixed(1);
+      tooltipShow(wklad);
+    })
+    .on('mouseout', function () { tooltipOut(); })
     .on('click', function (d, i) {
       wybraneId = i;
       update();
@@ -403,4 +428,16 @@ function widget_wskaznik_ewd (selector, nazwa) {
           .style('opacity', 0);
     }
   };
+}
+
+
+function tooltipShow  (html) {
+  tooltip.style("opacity", 0.8)
+    .style("left", (d3.event.pageX + 15) + "px")
+    .style("top", (d3.event.pageY + 8) + "px")
+    .html(html);
+}
+
+function tooltipOut () {
+    tooltip.style("opacity", 1e-6);
 }
