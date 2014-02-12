@@ -26,19 +26,19 @@ function init () {
         .attr("value", function (d, i) { return i; } )
         .text(function (d) {return d.nazwa; });
 
-  demog = d3.select("div#demografia").append("svg")
-    .attr("width", 100)
-    .attr("height", 20);
+  // demog = d3.select("div#demografia").append("svg")
+  //   .attr("width", 100)
+  //   .attr("height", 20);
 
-  demog.append("rect")
-    .attr("id", "xx")
-    .attr("fill", "#f88")
-    .attr("height", 20);
+  // demog.append("rect")
+  //   .attr("id", "xx")
+  //   .attr("fill", "#f88")
+  //   .attr("height", 20);
 
-  demog.append("rect")
-    .attr("id", "xy")
-    .attr("fill", "#88f")
-    .attr("height", 20);
+  // demog.append("rect")
+  //   .attr("id", "xy")
+  //   .attr("fill", "#88f")
+  //   .attr("height", 20);
 
   mult = 3;
   skala = d3.scale.linear()
@@ -107,30 +107,30 @@ function update () {
 
   d3.select("#demografia #uczniowie").html("Liczba uczniów: " + (wybranaDana.liczba_uczniow || "(brak danych)"));
   d3.select("#demografia #klasy").html("Liczba klas: " + (wybranaDana.oddzialy  || "(brak danych)"));
-  if (wybranaDana.procent_dziewczat != null) {
+  if (wybranaDana.liczba_uczniow != null) {
     d3.select("#demografia #wielkosc_klasy").html("Śr. wielkość klasy: " + (wybranaDana.liczba_uczniow/wybranaDana.oddzialy).toFixed(1));
-    d3.select("#demografia #dziewczeta").html("Dziewcząt: " + wybranaDana.procent_dziewczat.toFixed(1) + "%");
-    d3.select("#demografia #chlopcy").html("Chłopców: " + (100 - wybranaDana.procent_dziewczat).toFixed(1) + "%");
+    // d3.select("#demografia #dziewczeta").html("Dziewcząt: " + wybranaDana.procent_dziewczat.toFixed(1) + "%");
+    // d3.select("#demografia #chlopcy").html("Chłopców: " + (100 - wybranaDana.procent_dziewczat).toFixed(1) + "%");
   } else {
     d3.select("#demografia #wielkosc_klasy").html("Śr. wielkość klasy: (brak danych)");
-    d3.select("#demografia #dziewczeta").html("Dziewcząt: (brak danych)");
-    d3.select("#demografia #chlopcy").html("Chłopcy: (brak danych)");
+    // d3.select("#demografia #dziewczeta").html("Dziewcząt: (brak danych)");
+    // d3.select("#demografia #chlopcy").html("Chłopcy: (brak danych)");
   }
 
-  if (wybranaDana.procent_dziewczat != null) {
+  // if (wybranaDana.procent_dziewczat != null) {
 
-    demog.select("#xx").transition().duration(500)
-      .style("opacity", 1)
-      .attr("width", wybranaDana.procent_dziewczat);
+  //   demog.select("#xx").transition().duration(500)
+  //     .style("opacity", 1)
+  //     .attr("width", wybranaDana.procent_dziewczat);
   
-    demog.select("#xy").transition().duration(500)
-      .style("opacity", 1)
-      .attr("x", wybranaDana.procent_dziewczat)
-      .attr("width", (100 - wybranaDana.procent_dziewczat));
-  } else {
-    demog.selectAll('rect').transition().duration(500)
-      .style("opacity", 0);
-  }
+  //   demog.select("#xy").transition().duration(500)
+  //     .style("opacity", 1)
+  //     .attr("x", wybranaDana.procent_dziewczat)
+  //     .attr("width", (100 - wybranaDana.procent_dziewczat));
+  // } else {
+  //   demog.selectAll('rect').transition().duration(500)
+  //     .style("opacity", 0);
+  // }
 
   porownania = d3.select("div#porownania svg").selectAll('ellipse').data(dane);
 
@@ -142,7 +142,7 @@ function update () {
     .append('ellipse')
       .attr('class', 'pasek')
       .attr("cx", function (d) { return skala2d((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2); })
-      .attr("cy", function (d) { return -skala2d(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) + skala2d(0) + 50; })
+      .attr("cy", function (d) { return -skala2d(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) +  skala2d(0) + 50; })
       .attr("rx", function (d) { return 5; })
       .attr("ry", function (d) { return 5; })
       .style("opacity", 0.3);
