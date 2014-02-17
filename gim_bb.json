@@ -2,1513 +2,5889 @@
   {
     "www": "http://gim16bielsko.comoj.com",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 414.0,
     "adres": "Asnyka 30",
     "dla_doroslych": false,
-    "ewd_mp": 4.57,
+    "sr_wynik_egz_mp": 113.59,
     "telefon": 338126229.0,
     "bs_sr_wynik_egz_hum": 0.63,
     "sr_wynik_egz_obu_gwiazdki_pow": 4.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.034671,
-    "liczba_uczniow": 444.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 4.77,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 3.71,
-    "liczba_dopasowan": 1.0,
-    "fax": 338126229.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 4.24,
     "korelacja_mp": 0.61,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8280143,
+    "stdev_wynik_egz_mp": 14.48,
     "ewd_mp_gwiazdki_pow": 4.0,
-    "id_sio": 5665.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 4.0,
-    "sr_wynik_egz_mp": 113.59,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.66,
     "sr_wynik_egz_mp_gwiazdki_pow": 4.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 5.09,
-    "stdev_wynik_egz_mp": 14.48,
+    "fax": 338126229.0,
     "stdev_wynik_egz_hum": 13.15,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 113.05,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.42,
     "ewd_min90_mp": 4.06,
-    "lat": 49.8280143,
+    "ewd_mp": 4.57,
+    "lp_sio": 5721.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 112.5,
     "bs_ewd_mp": 0.4,
     "ewd_hum_gwiazdki_pow": 4.0,
-    "oddzialy": 15.0,
+    "oddzialy": 14.0,
     "nazwa": "Gimnazjum nr 16",
-    "procent_dziewczat": 49.0990990991,
-    "bs_sr_wynik_egz_mp": 0.66,
-    "id_szkoly": 19617
+    "procent_dziewczat": 48.067632850200006,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 104.28744996060594,
+          "egz_norm_std": 17.425848328054201,
+          "probka": 237.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 110.45060772607523,
+          "egz_norm_std": 16.189584100892592,
+          "probka": 237.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 109.9308896350841,
+          "egz_norm_std": 18.185034480408333,
+          "probka": 214.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 104.70421656092523,
+          "egz_norm_std": 14.048284310972596,
+          "probka": 214.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 109.37823089241085,
+          "egz_norm_std": 15.440374013275786,
+          "probka": 160.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 109.57587164844981,
+          "egz_norm_std": 14.03597671483992,
+          "probka": 164.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 109.76375778747132,
+          "egz_norm_std": 15.192383290495098,
+          "probka": 179.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 107.62078327945204,
+          "egz_norm_std": 14.850828054625467,
+          "probka": 188.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 113.44800707779171,
+          "egz_norm_std": 17.308880499667787,
+          "probka": 184.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 110.51910747415018,
+          "egz_norm_std": 13.403316654029664,
+          "probka": 184.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 110.1004157426886,
+          "egz_norm_std": 16.738807292876388,
+          "probka": 191.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 105.65577178642731,
+          "egz_norm_std": 13.829393116203573,
+          "probka": 190.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 113.00893635063663,
+          "egz_norm_std": 15.900524329403732,
+          "probka": 184.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 109.14425263821484,
+          "egz_norm_std": 13.620383025400438,
+          "probka": 184.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.70225971429295,
+          "egz_norm_std": 14.482202489298828,
+          "probka": 160.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 111.1074372281067,
+          "egz_norm_std": 13.261547204534287,
+          "probka": 160.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.14202749995573,
+          "egz_norm_std": 15.944206344510606,
+          "probka": 166.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 112.82864971929871,
+          "egz_norm_std": 14.428847874159697,
+          "probka": 166.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 114.03910120162701,
+          "egz_norm_std": 16.481692145188347,
+          "probka": 170.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 112.04687769684256,
+          "egz_norm_std": 14.621628093732571,
+          "probka": 170.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 113.07640886483313,
+          "egz_norm_std": 14.065294947292562,
+          "probka": 176.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 110.90777743067514,
+          "egz_norm_std": 14.285768655967765,
+          "probka": 176.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 110.97770865582399,
+          "egz_norm_std": 15.055837855488395,
+          "probka": 176.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 113.32004200521773,
+          "egz_norm_std": 15.366173911657116,
+          "probka": 176.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 113.71664755561773,
+          "egz_norm_std": 15.350130523306149,
+          "probka": 146.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 111.21393493425181,
+          "egz_norm_std": 16.39605543618617,
+          "probka": 145.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 110.10906240631,
+          "egz_norm_std": 14.682591739870601,
+          "probka": 146.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 112.85875890291271,
+          "egz_norm_std": 15.456549333793664,
+          "probka": 145.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.66
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 52.0,
     "adres": "Filarowa 52",
     "dla_doroslych": false,
-    "ewd_mp": -0.51,
-    "telefon": null,
+    "sr_wynik_egz_mp": 100.25,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 1.87,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0312135,
-    "liczba_uczniow": null,
     "id_powiatu": 61,
     "ewd_max90_hum": 1.58,
-    "bliskosc": null,
     "ewd_min90_hum": -1.49,
-    "liczba_dopasowan": null,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 0.05,
     "korelacja_mp": 0.64,
-    "jak": null,
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.831936799999994,
+    "stdev_wynik_egz_mp": 12.77,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": null,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 100.25,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.64,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 0.96,
-    "stdev_wynik_egz_mp": 12.77,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 12.82,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 100.51,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.2,
     "ewd_min90_mp": -1.98,
-    "lat": 49.8319368,
+    "ewd_mp": -0.51,
+    "lp_sio": 5717.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 100.77,
     "bs_ewd_mp": 1.15,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": null,
+    "oddzialy": 3.0,
     "nazwa": "Gimnazjum nr 12 w ZSSiO",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.81,
-    "id_szkoly": 19623
+    "procent_dziewczat": 34.6153846154,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 95.273790125802549,
+          "egz_norm_std": 11.851735126048705,
+          "probka": 51.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 101.69007775180005,
+          "egz_norm_std": 15.035004508162613,
+          "probka": 51.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.44899302407836,
+          "egz_norm_std": 11.502903724457667,
+          "probka": 54.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 103.58677174282086,
+          "egz_norm_std": 11.232882215782841,
+          "probka": 54.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.59752113598766,
+          "egz_norm_std": 11.406464184226166,
+          "probka": 52.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 104.52676452081738,
+          "egz_norm_std": 12.827849430854108,
+          "probka": 52.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.939096777160415,
+          "egz_norm_std": 12.818384037519536,
+          "probka": 45.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 104.21896573969043,
+          "egz_norm_std": 11.661748607477124,
+          "probka": 45.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.390656560892694,
+          "egz_norm_std": 11.106238472235255,
+          "probka": 36.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 101.11066020444528,
+          "egz_norm_std": 13.029298017025585,
+          "probka": 36.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.126865529095141,
+          "egz_norm_std": 11.121059733296676,
+          "probka": 33.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 102.74580684354817,
+          "egz_norm_std": 13.334467955150172,
+          "probka": 33.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.76446397402955,
+          "egz_norm_std": 13.436610228617097,
+          "probka": 25.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 108.05657852022335,
+          "egz_norm_std": 13.636204419045599,
+          "probka": 25.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.14901080583144,
+          "egz_norm_std": 13.198979994627367,
+          "probka": 17.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 103.63783473174549,
+          "egz_norm_std": 18.035295813509158,
+          "probka": 17.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 92.80679414491604,
+          "egz_norm_std": 11.607066589760928,
+          "probka": 17.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 90.035449272706813,
+          "egz_norm_std": 16.272647584252642,
+          "probka": 17.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.493517465569155,
+          "egz_norm_std": 12.664301302502606,
+          "probka": 20.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 100.00852884196982,
+          "egz_norm_std": 14.160412549734176,
+          "probka": 20.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 103.8060234304652,
+          "egz_norm_std": 10.864535152740203,
+          "probka": 19.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 102.43326562516428,
+          "egz_norm_std": 11.252126658965759,
+          "probka": 19.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 103.06252659863981,
+          "egz_norm_std": 11.370152780690827,
+          "probka": 19.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 105.26403044785488,
+          "egz_norm_std": 10.158786960340288,
+          "probka": 19.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 100.98612818285204,
+          "egz_norm_std": 13.305288543524703,
+          "probka": 14.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 99.471460007221197,
+          "egz_norm_std": 13.536719483560814,
+          "probka": 14.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 98.658223088146059,
+          "egz_norm_std": 19.664697238585404,
+          "probka": 14.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 101.74192661540873,
+          "egz_norm_std": 12.85262218421272,
+          "probka": 14.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.81
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 107.0,
     "adres": "C. K. Norwida 30",
     "dla_doroslych": false,
-    "ewd_mp": 1.52,
+    "sr_wynik_egz_mp": 102.73,
     "telefon": 338290888.0,
     "bs_sr_wynik_egz_hum": 1.35,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0583845,
-    "liczba_uczniow": 97.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 1.23,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -0.98,
-    "liczba_dopasowan": 1.0,
-    "fax": 338290888.0,
     "location_type": "APPROXIMATE",
     "ewd_hum": 0.13,
     "korelacja_mp": 0.6,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8223768,
+    "stdev_wynik_egz_mp": 14.17,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5672.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 102.73,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.64,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 2.59,
-    "stdev_wynik_egz_mp": 14.17,
+    "fax": 338290888.0,
     "stdev_wynik_egz_hum": 13.67,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 101.87,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.87,
     "ewd_min90_mp": 0.46,
-    "lat": 49.8223768,
+    "ewd_mp": 1.52,
+    "lp_sio": 5727.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 101.01,
     "bs_ewd_mp": 0.83,
     "ewd_hum_gwiazdki_pow": 3.0,
     "oddzialy": 4.0,
     "nazwa": "Gimnazjum nr 5",
-    "procent_dziewczat": 51.5463917526,
-    "bs_sr_wynik_egz_mp": 1.38,
-    "id_szkoly": 19608
+    "procent_dziewczat": 53.2710280374,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 103.72676518246796,
+          "egz_norm_std": 13.480733006827965,
+          "probka": 91.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 111.81150677135712,
+          "egz_norm_std": 14.175686219601975,
+          "probka": 91.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.66424058659723,
+          "egz_norm_std": 12.944062294887063,
+          "probka": 80.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 105.23781164293987,
+          "egz_norm_std": 11.613753976424256,
+          "probka": 80.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.72473224436993,
+          "egz_norm_std": 12.396764423521429,
+          "probka": 72.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 105.05931942915623,
+          "egz_norm_std": 11.499562124608509,
+          "probka": 72.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.17732316396099,
+          "egz_norm_std": 12.034369559320133,
+          "probka": 68.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 104.69842040121193,
+          "egz_norm_std": 12.53636207317208,
+          "probka": 69.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.37962991328985,
+          "egz_norm_std": 11.889804833993807,
+          "probka": 77.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 103.9579602045135,
+          "egz_norm_std": 11.582240969165502,
+          "probka": 77.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.923851449891799,
+          "egz_norm_std": 11.918775289088169,
+          "probka": 69.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 100.2525905292372,
+          "egz_norm_std": 11.101444772117718,
+          "probka": 69.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.33671032514002,
+          "egz_norm_std": 14.524645572402425,
+          "probka": 52.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 99.725018550048688,
+          "egz_norm_std": 12.152331203177088,
+          "probka": 52.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.38996228460722,
+          "egz_norm_std": 12.16446723409044,
+          "probka": 59.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 104.40591162677543,
+          "egz_norm_std": 15.071175125583329,
+          "probka": 59.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.87733145831129,
+          "egz_norm_std": 12.348198845781051,
+          "probka": 50.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 97.379081021875862,
+          "egz_norm_std": 9.5800521653950614,
+          "probka": 50.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.34396705728855,
+          "egz_norm_std": 10.830019450995968,
+          "probka": 29.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 103.13838342586894,
+          "egz_norm_std": 8.8614990134863909,
+          "probka": 29.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 104.30158226368015,
+          "egz_norm_std": 10.906149014322061,
+          "probka": 43.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 101.72318122785634,
+          "egz_norm_std": 14.164259378018134,
+          "probka": 43.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 98.273644665973819,
+          "egz_norm_std": 12.853194112456016,
+          "probka": 43.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 103.50977224007627,
+          "egz_norm_std": 14.399416300871785,
+          "probka": 43.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 104.00907585497272,
+          "egz_norm_std": 13.949939447837849,
+          "probka": 35.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 104.07594673323072,
+          "egz_norm_std": 15.200138235532133,
+          "probka": 35.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 96.371360572591513,
+          "egz_norm_std": 13.460816870500018,
+          "probka": 35.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 101.08944625078932,
+          "egz_norm_std": 12.816454043487244,
+          "probka": 35.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.38
   },
   {
-    "www": "http://www.g1bb.republika.pl",
+    "www": "http://www.g1.bielsko.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 380.0,
     "adres": "Straconki 25",
     "dla_doroslych": false,
-    "ewd_mp": -0.7,
+    "sr_wynik_egz_mp": 100.6,
     "telefon": 338164979.0,
     "bs_sr_wynik_egz_hum": 0.74,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.062442,
-    "liczba_uczniow": 396.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 2.53,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 1.19,
-    "liczba_dopasowan": 1.0,
-    "fax": 338164979.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 1.86,
     "korelacja_mp": 0.67,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.80074260000001,
+    "stdev_wynik_egz_mp": 13.05,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5659.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 100.6,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.71,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": -0.06,
-    "stdev_wynik_egz_mp": 13.05,
+    "fax": 338164979.0,
     "stdev_wynik_egz_hum": 12.58,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 101.92,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.52,
     "ewd_min90_mp": -1.34,
-    "lat": 49.8007426,
+    "ewd_mp": -0.7,
+    "lp_sio": 5715.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 103.24,
     "bs_ewd_mp": 0.5,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": 15.0,
+    "oddzialy": 14.0,
     "nazwa": "Gimnazjum nr 1",
-    "procent_dziewczat": 47.9797979798,
-    "bs_sr_wynik_egz_mp": 0.75,
-    "id_szkoly": 19604
+    "procent_dziewczat": 46.3157894737,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 95.882787316305127,
+          "egz_norm_std": 12.994969445747001,
+          "probka": 142.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 105.08040822854505,
+          "egz_norm_std": 17.535687426630528,
+          "probka": 142.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.08381802662399,
+          "egz_norm_std": 15.518365954842654,
+          "probka": 148.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 104.30157617781749,
+          "egz_norm_std": 15.707398365371661,
+          "probka": 148.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.6504628056811,
+          "egz_norm_std": 13.426236985963767,
+          "probka": 120.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 102.59903145574634,
+          "egz_norm_std": 12.868326724408908,
+          "probka": 120.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.84589410384504,
+          "egz_norm_std": 13.002672578635073,
+          "probka": 123.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 105.52503150496626,
+          "egz_norm_std": 13.922151210534494,
+          "probka": 124.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.80537456791257,
+          "egz_norm_std": 13.635133987695776,
+          "probka": 146.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 106.83614376124748,
+          "egz_norm_std": 12.292749352003222,
+          "probka": 146.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.47124670924896,
+          "egz_norm_std": 11.887336482346996,
+          "probka": 127.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 103.4058564426075,
+          "egz_norm_std": 9.9695160162674288,
+          "probka": 127.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.33093319297164,
+          "egz_norm_std": 11.948403598647866,
+          "probka": 128.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 102.17586611722463,
+          "egz_norm_std": 12.380394273532026,
+          "probka": 128.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.94907498943279,
+          "egz_norm_std": 12.743458819534618,
+          "probka": 100.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 103.56756118430144,
+          "egz_norm_std": 12.798565128296303,
+          "probka": 100.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.38050980385124,
+          "egz_norm_std": 12.217237108761847,
+          "probka": 112.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 105.35165248953906,
+          "egz_norm_std": 11.994928364648151,
+          "probka": 112.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.35050554885464,
+          "egz_norm_std": 14.088772032392145,
+          "probka": 100.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 101.47262042392937,
+          "egz_norm_std": 11.151200417878337,
+          "probka": 100.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 105.45932886730084,
+          "egz_norm_std": 14.012282456975925,
+          "probka": 96.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 98.970352610455208,
+          "egz_norm_std": 11.902258940118315,
+          "probka": 96.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 104.44763820716624,
+          "egz_norm_std": 12.902605953102976,
+          "probka": 96.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 100.74571280780305,
+          "egz_norm_std": 14.582369987445851,
+          "probka": 96.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 103.82353294863165,
+          "egz_norm_std": 13.358677903731882,
+          "probka": 119.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 100.80187025928892,
+          "egz_norm_std": 12.824078222020798,
+          "probka": 119.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 105.56592992488831,
+          "egz_norm_std": 14.07364024787833,
+          "probka": 119.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 101.49686648903095,
+          "egz_norm_std": 14.365790369995375,
+          "probka": 119.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.75
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": NaN,
     "adres": "Jutrzenki 13",
     "dla_doroslych": false,
-    "ewd_mp": -0.67,
-    "telefon": 338164972.0,
+    "sr_wynik_egz_mp": 100.58,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 0.93,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": NaN,
     "przyszpitalna": false,
     "lng": 19.0631092,
-    "liczba_uczniow": 205.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 0.77,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -0.85,
-    "liczba_dopasowan": 1.0,
-    "fax": 338164972.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -0.04,
     "korelacja_mp": 0.64,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.809249799999996,
+    "stdev_wynik_egz_mp": 13.57,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5667.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 100.58,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.68,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": NaN,
     "ewd_max90_mp": 0.1,
-    "stdev_wynik_egz_mp": 13.57,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 13.15,
+    "specjalna_y": NaN,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 100.95,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.63,
     "ewd_min90_mp": -1.45,
-    "lat": 49.8092498,
+    "ewd_mp": -0.67,
+    "lp_sio": NaN,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 101.33,
     "bs_ewd_mp": 0.61,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": 8.0,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum nr 2 w ZSO",
-    "procent_dziewczat": 51.2195121951,
-    "bs_sr_wynik_egz_mp": 0.95,
-    "id_szkoly": 19605
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 103.06514244269728,
+          "egz_norm_std": 14.240294147072131,
+          "probka": 216.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 106.80781731019884,
+          "egz_norm_std": 13.930482473792772,
+          "probka": 216.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.93216860147939,
+          "egz_norm_std": 14.203298613693647,
+          "probka": 165.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 110.19264610538583,
+          "egz_norm_std": 16.652693588735019,
+          "probka": 165.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.29438602252479,
+          "egz_norm_std": 13.065072752046996,
+          "probka": 135.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 100.78280850740664,
+          "egz_norm_std": 12.291098680828366,
+          "probka": 136.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.6699128977598,
+          "egz_norm_std": 14.348318848219636,
+          "probka": 160.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 103.6957345311027,
+          "egz_norm_std": 12.994254510121547,
+          "probka": 161.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.59077734387705,
+          "egz_norm_std": 14.075159963046366,
+          "probka": 115.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 101.27776256419077,
+          "egz_norm_std": 12.763532154625965,
+          "probka": 115.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.65061197498524,
+          "egz_norm_std": 14.82720931052002,
+          "probka": 129.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 100.66099148472451,
+          "egz_norm_std": 10.613033570011588,
+          "probka": 129.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.72953318793785,
+          "egz_norm_std": 13.846689942992054,
+          "probka": 80.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 102.29647625756701,
+          "egz_norm_std": 12.520754100784266,
+          "probka": 81.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.58281117841094,
+          "egz_norm_std": 14.751424177747822,
+          "probka": 96.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 103.04856418390835,
+          "egz_norm_std": 13.556343063696636,
+          "probka": 96.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.847876092710081,
+          "egz_norm_std": 12.496220578908186,
+          "probka": 87.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 100.03525957267496,
+          "egz_norm_std": 13.393298976718421,
+          "probka": 87.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.36731722363392,
+          "egz_norm_std": 14.171908509275982,
+          "probka": 64.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 98.72846503317038,
+          "egz_norm_std": 13.442716494037244,
+          "probka": 64.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 101.29689893210205,
+          "egz_norm_std": 14.418582521316669,
+          "probka": 82.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 100.80636158762972,
+          "egz_norm_std": 13.857822656257596,
+          "probka": 82.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 103.8709192604876,
+          "egz_norm_std": 12.510668913898455,
+          "probka": 82.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 99.866537753319875,
+          "egz_norm_std": 13.999127334841981,
+          "probka": 82.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 101.45796097405584,
+          "egz_norm_std": 13.95685290628824,
+          "probka": 79.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 98.747603989540565,
+          "egz_norm_std": 12.019602547736914,
+          "probka": 79.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 101.1140541407329,
+          "egz_norm_std": 12.684380838182001,
+          "probka": 79.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 101.20208179394452,
+          "egz_norm_std": 14.493869456742241,
+          "probka": 79.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.95
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 81.0,
     "adres": "Karpacka 150",
     "dla_doroslych": false,
-    "ewd_mp": 1.63,
-    "telefon": null,
+    "sr_wynik_egz_mp": 101.53,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 1.6,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0177185,
-    "liczba_uczniow": 73.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 5.69,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 3.02,
-    "liczba_dopasowan": 1.0,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 4.35,
     "korelacja_mp": 0.65,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8000445,
+    "stdev_wynik_egz_mp": 12.78,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5669.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 101.53,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.65,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 1.0,
     "ewd_max90_mp": 2.92,
-    "stdev_wynik_egz_mp": 12.78,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 12.97,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-316",
     "sr_wynik_egz_obu": 102.98,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.04,
     "ewd_min90_mp": 0.35,
-    "lat": 49.8000445,
+    "ewd_mp": 1.63,
+    "lp_sio": 5725.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 104.43,
     "bs_ewd_mp": 1.0,
     "ewd_hum_gwiazdki_pow": 4.0,
     "oddzialy": 3.0,
     "nazwa": "Gimnazjum nr 22 w ZSP-G",
-    "procent_dziewczat": 60.2739726027,
-    "bs_sr_wynik_egz_mp": 1.54,
-    "id_szkoly": 19619
+    "procent_dziewczat": 56.7901234568,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 101.47835742675724,
+          "egz_norm_std": 18.37895127632537,
+          "probka": 26.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 103.54623144251724,
+          "egz_norm_std": 12.260634984592636,
+          "probka": 25.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.8555837177383,
+          "egz_norm_std": 11.618846886359837,
+          "probka": 30.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 105.30914514654512,
+          "egz_norm_std": 10.482732184223233,
+          "probka": 31.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.29645384139459,
+          "egz_norm_std": 14.957234492154988,
+          "probka": 25.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 102.65556183284784,
+          "egz_norm_std": 14.806887651765699,
+          "probka": 25.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.13916358238886,
+          "egz_norm_std": 12.830103145693711,
+          "probka": 24.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 99.966549935743842,
+          "egz_norm_std": 11.773053281874802,
+          "probka": 24.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 109.22253099924428,
+          "egz_norm_std": 14.251740184539235,
+          "probka": 24.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 108.55160153096773,
+          "egz_norm_std": 10.166382366305287,
+          "probka": 24.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.977518330644401,
+          "egz_norm_std": 18.092285528164844,
+          "probka": 22.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 99.932284478034433,
+          "egz_norm_std": 16.673575454119426,
+          "probka": 25.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.19428072837745,
+          "egz_norm_std": 12.287403592782333,
+          "probka": 26.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 101.67253666491945,
+          "egz_norm_std": 11.053454271499671,
+          "probka": 26.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.36629036490014,
+          "egz_norm_std": 12.322940890658106,
+          "probka": 24.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 105.39790537513004,
+          "egz_norm_std": 12.233624355952307,
+          "probka": 24.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 101.65491783163664,
+          "egz_norm_std": 12.182527390555403,
+          "probka": 27.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 100.9655078903675,
+          "egz_norm_std": 11.430783350677292,
+          "probka": 27.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 102.67727640211235,
+          "egz_norm_std": 15.819761054619972,
+          "probka": 27.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 101.29028256824999,
+          "egz_norm_std": 16.854578158704253,
+          "probka": 27.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 108.01325399617585,
+          "egz_norm_std": 13.283737901074545,
+          "probka": 24.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 104.1057174438488,
+          "egz_norm_std": 15.99758195515413,
+          "probka": 24.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 110.04578626480698,
+          "egz_norm_std": 16.45311835766957,
+          "probka": 24.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 107.78671321593416,
+          "egz_norm_std": 12.399593283361039,
+          "probka": 24.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.54
   },
   {
-    "www": "http://www.gimn3.neostrada.pl",
+    "www": "http://www.gim3.bielsko.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 189.0,
     "adres": "Broniewskiego 23",
     "dla_doroslych": false,
-    "ewd_mp": -3.63,
+    "sr_wynik_egz_mp": 91.39,
     "telefon": 338158728.0,
     "bs_sr_wynik_egz_hum": 1.05,
     "sr_wynik_egz_obu_gwiazdki_pow": 2.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
-    "lng": 19.0517822,
-    "liczba_uczniow": 194.0,
+    "lng": 19.051782199999998,
     "id_powiatu": 61,
     "ewd_max90_hum": 0.18,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -1.67,
-    "liczba_dopasowan": 1.0,
-    "fax": 338158728.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -0.74,
     "korelacja_mp": 0.66,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8180187,
+    "stdev_wynik_egz_mp": 12.97,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": 5670.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 91.39,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.69,
     "sr_wynik_egz_mp_gwiazdki_pow": 2.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": -2.74,
-    "stdev_wynik_egz_mp": 12.97,
+    "fax": 338158728.0,
     "stdev_wynik_egz_hum": 12.88,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 93.0,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.72,
     "ewd_min90_mp": -4.51,
-    "lat": 49.8180187,
+    "ewd_mp": -3.63,
+    "lp_sio": 5713.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 94.62,
     "bs_ewd_mp": 0.69,
     "ewd_hum_gwiazdki_pow": 2.0,
     "oddzialy": 8.0,
     "nazwa": "Gimnazjum nr 3 im. H. Sienkiewicza",
-    "procent_dziewczat": 52.5773195876,
-    "bs_sr_wynik_egz_mp": 1.04,
-    "id_szkoly": 19606
+    "procent_dziewczat": 49.206349206300004,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 98.695383857984766,
+          "egz_norm_std": 13.128291649115155,
+          "probka": 196.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 97.746811429641284,
+          "egz_norm_std": 15.571852619765069,
+          "probka": 196.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 94.391681463755916,
+          "egz_norm_std": 11.594966557844069,
+          "probka": 136.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 99.84442827974236,
+          "egz_norm_std": 13.125484679037585,
+          "probka": 136.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 91.1729221764394,
+          "egz_norm_std": 12.582432226133644,
+          "probka": 138.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 96.23403756603355,
+          "egz_norm_std": 12.329544721487519,
+          "probka": 138.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 95.188742194524195,
+          "egz_norm_std": 14.688988233118165,
+          "probka": 138.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 98.342004808198922,
+          "egz_norm_std": 15.376200466265445,
+          "probka": 141.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 93.462600723590086,
+          "egz_norm_std": 14.837047244857386,
+          "probka": 95.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 98.428856591791344,
+          "egz_norm_std": 15.036712362157534,
+          "probka": 95.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 94.023932136205161,
+          "egz_norm_std": 14.158042602135842,
+          "probka": 95.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 96.052459532144638,
+          "egz_norm_std": 12.592103385601131,
+          "probka": 95.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 93.201951306906622,
+          "egz_norm_std": 12.177170043455416,
+          "probka": 83.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 95.792742813883692,
+          "egz_norm_std": 14.427438903126378,
+          "probka": 84.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 88.728923228941895,
+          "egz_norm_std": 12.357327297955294,
+          "probka": 73.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 89.330916071756306,
+          "egz_norm_std": 13.377725938269695,
+          "probka": 73.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 91.577562690209064,
+          "egz_norm_std": 13.237467188339512,
+          "probka": 74.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 92.2616137342158,
+          "egz_norm_std": 14.681093823234356,
+          "probka": 73.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 91.980336539789519,
+          "egz_norm_std": 16.621213506245478,
+          "probka": 63.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 97.155877925117764,
+          "egz_norm_std": 16.272938096451856,
+          "probka": 63.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 95.545808427104191,
+          "egz_norm_std": 12.309386513060346,
+          "probka": 60.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 91.549759085820526,
+          "egz_norm_std": 13.732722590998481,
+          "probka": 60.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 90.198124608850293,
+          "egz_norm_std": 14.118825453918946,
+          "probka": 60.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 94.363886341155705,
+          "egz_norm_std": 12.625866083683553,
+          "probka": 60.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 93.95880298156294,
+          "egz_norm_std": 17.097390438055868,
+          "probka": 60.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 89.354453168900932,
+          "egz_norm_std": 10.985641843834193,
+          "probka": 60.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 91.73447975383543,
+          "egz_norm_std": 13.629031603319,
+          "probka": 60.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 90.668783806783949,
+          "egz_norm_std": 13.78458556689178,
+          "probka": 60.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.04
   },
   {
     "www": "http://www.gim4.bb.prv.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 282.0,
     "adres": "Lipnicka 226",
     "dla_doroslych": false,
-    "ewd_mp": 4.84,
+    "sr_wynik_egz_mp": 109.59,
     "telefon": 338216948.0,
     "bs_sr_wynik_egz_hum": 0.79,
     "sr_wynik_egz_obu_gwiazdki_pow": 4.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0842539,
-    "liczba_uczniow": 283.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 6.34,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 4.92,
-    "liczba_dopasowan": 1.0,
-    "fax": 338216948.0,
     "location_type": "ROOFTOP",
     "ewd_hum": 5.63,
     "korelacja_mp": 0.66,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8180902,
+    "stdev_wynik_egz_mp": 13.31,
     "ewd_mp_gwiazdki_pow": 4.0,
-    "id_sio": 5671.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 4.0,
-    "sr_wynik_egz_mp": 109.59,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.7,
     "sr_wynik_egz_mp_gwiazdki_pow": 4.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 5.52,
-    "stdev_wynik_egz_mp": 13.31,
+    "fax": 338216948.0,
     "stdev_wynik_egz_hum": 12.44,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-305",
     "sr_wynik_egz_obu": 109.95,
     "poczta": "Bielsko-Bia\u0142a Lipnik",
     "bs_ewd_hum": 0.55,
     "ewd_min90_mp": 4.16,
-    "lat": 49.8180902,
+    "ewd_mp": 4.84,
+    "lp_sio": 5726.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 110.3,
     "bs_ewd_mp": 0.53,
     "ewd_hum_gwiazdki_pow": 4.0,
     "oddzialy": 9.0,
     "nazwa": "Gimnazjum nr 4 im. Marsza\u0142ka J\u00f3zefa Pi\u0142sudskiego",
-    "procent_dziewczat": 50.8833922261,
-    "bs_sr_wynik_egz_mp": 0.81,
-    "id_szkoly": 19607
+    "procent_dziewczat": 52.48226950350001,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 104.41269366477395,
+          "egz_norm_std": 14.281132774609622,
+          "probka": 86.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 107.31118470618144,
+          "egz_norm_std": 14.591017896486507,
+          "probka": 86.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.72277471724249,
+          "egz_norm_std": 11.884073198006551,
+          "probka": 76.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 108.94876226075449,
+          "egz_norm_std": 11.842595899243946,
+          "probka": 76.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.16040769270671,
+          "egz_norm_std": 14.409561943624926,
+          "probka": 84.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 109.24341806638584,
+          "egz_norm_std": 11.369680510410289,
+          "probka": 84.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.97396548706914,
+          "egz_norm_std": 12.956608103037743,
+          "probka": 87.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 111.25441896704781,
+          "egz_norm_std": 14.379694463521496,
+          "probka": 88.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.20794931991934,
+          "egz_norm_std": 13.44758817436054,
+          "probka": 89.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 107.2605506446608,
+          "egz_norm_std": 11.140866066859518,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.20091965456659,
+          "egz_norm_std": 13.700083903868967,
+          "probka": 89.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 108.81874285534001,
+          "egz_norm_std": 11.410415067354839,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 108.15202951560836,
+          "egz_norm_std": 14.172429377173016,
+          "probka": 93.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 109.660057631166,
+          "egz_norm_std": 13.078151301731081,
+          "probka": 93.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.41247269135687,
+          "egz_norm_std": 11.725167619489561,
+          "probka": 86.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 108.12882048338442,
+          "egz_norm_std": 9.5875901295881096,
+          "probka": 86.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 112.60317406587372,
+          "egz_norm_std": 13.969198115901591,
+          "probka": 91.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 111.28953903301009,
+          "egz_norm_std": 13.169459597658534,
+          "probka": 91.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 113.4663454872686,
+          "egz_norm_std": 13.873731689367215,
+          "probka": 88.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 110.97949229510158,
+          "egz_norm_std": 11.669596036091775,
+          "probka": 89.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 112.18908832602959,
+          "egz_norm_std": 10.933499642755391,
+          "probka": 90.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 107.14574163055596,
+          "egz_norm_std": 14.662238901696401,
+          "probka": 90.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 111.71009998351877,
+          "egz_norm_std": 12.504011784064778,
+          "probka": 90.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 109.93012141826144,
+          "egz_norm_std": 15.937678687467525,
+          "probka": 90.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 107.55414150482102,
+          "egz_norm_std": 11.475238601730368,
+          "probka": 94.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 105.64538554014256,
+          "egz_norm_std": 14.277116972141096,
+          "probka": 94.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 108.77863822546176,
+          "egz_norm_std": 12.378616188987445,
+          "probka": 94.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 109.75111770329778,
+          "egz_norm_std": 13.100357203213116,
+          "probka": 94.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.81
   },
   {
-    "www": "http://www.gm6bielsko.webpark.pl",
+    "www": "http://www.gim6bb.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 217.0,
     "adres": "W. Witosa 96",
     "dla_doroslych": false,
-    "ewd_mp": -0.03,
+    "sr_wynik_egz_mp": 97.84,
     "telefon": 338160403.0,
     "bs_sr_wynik_egz_hum": 0.84,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.094036,
-    "liczba_uczniow": 233.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 4.32,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 2.85,
-    "liczba_dopasowan": 1.0,
-    "fax": 338160403.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 3.58,
     "korelacja_mp": 0.66,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.841959700000004,
+    "stdev_wynik_egz_mp": 13.26,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5673.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 97.84,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.68,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 0.67,
-    "stdev_wynik_egz_mp": 13.26,
+    "fax": 338160403.0,
     "stdev_wynik_egz_hum": 12.93,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 99.77,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.57,
     "ewd_min90_mp": -0.74,
-    "lat": 49.8419597,
+    "ewd_mp": -0.03,
+    "lp_sio": 5728.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 101.7,
     "bs_ewd_mp": 0.55,
     "ewd_hum_gwiazdki_pow": 4.0,
-    "oddzialy": 11.0,
+    "oddzialy": 10.0,
     "nazwa": "Gimnazjum nr 6 im. Orl\u0105t Lwowskich",
-    "procent_dziewczat": 49.7854077253,
-    "bs_sr_wynik_egz_mp": 0.84,
-    "id_szkoly": 19609
+    "procent_dziewczat": 46.5437788018,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 92.855853032428683,
+          "egz_norm_std": 14.256264077480102,
+          "probka": 105.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 103.23364039639569,
+          "egz_norm_std": 15.618895990045635,
+          "probka": 105.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.434978366642952,
+          "egz_norm_std": 13.440599865116734,
+          "probka": 131.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 98.071939875737641,
+          "egz_norm_std": 12.074992115741546,
+          "probka": 133.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 95.765306777680209,
+          "egz_norm_std": 13.614438459537975,
+          "probka": 127.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 100.31346441157065,
+          "egz_norm_std": 14.087137191456096,
+          "probka": 127.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.77473058890386,
+          "egz_norm_std": 15.505568895262645,
+          "probka": 170.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 104.80460035605078,
+          "egz_norm_std": 15.223728677435147,
+          "probka": 168.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.896337063722711,
+          "egz_norm_std": 15.516601521354545,
+          "probka": 126.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 98.494564348895352,
+          "egz_norm_std": 12.025074291391419,
+          "probka": 126.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.885206578072683,
+          "egz_norm_std": 17.163917872606856,
+          "probka": 158.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 100.61215518196673,
+          "egz_norm_std": 13.919656717212455,
+          "probka": 158.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.477711409028288,
+          "egz_norm_std": 14.99069256624448,
+          "probka": 127.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 97.006803403231856,
+          "egz_norm_std": 12.919474166781724,
+          "probka": 127.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.80897988193172,
+          "egz_norm_std": 12.1304954437257,
+          "probka": 116.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 103.11797406060414,
+          "egz_norm_std": 11.753611147736461,
+          "probka": 116.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.708538088938241,
+          "egz_norm_std": 13.955294305733744,
+          "probka": 97.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 99.373080066663803,
+          "egz_norm_std": 12.917537741669472,
+          "probka": 97.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.91507231512831,
+          "egz_norm_std": 12.227295833776415,
+          "probka": 96.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 101.91944301583284,
+          "egz_norm_std": 12.318827164741554,
+          "probka": 96.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 101.16102272986477,
+          "egz_norm_std": 13.805156547866426,
+          "probka": 83.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 97.155907320150504,
+          "egz_norm_std": 12.942490445151618,
+          "probka": 83.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 102.98811992802278,
+          "egz_norm_std": 12.455121334573958,
+          "probka": 83.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 99.528624107687335,
+          "egz_norm_std": 13.296974553907239,
+          "probka": 83.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 102.2343670187137,
+          "egz_norm_std": 16.234722403991832,
+          "probka": 79.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 95.10022124810196,
+          "egz_norm_std": 14.095405644661527,
+          "probka": 79.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 102.06645908498608,
+          "egz_norm_std": 14.127274831890292,
+          "probka": 79.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 102.46366129247779,
+          "egz_norm_std": 12.766154147214847,
+          "probka": 79.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.84
   },
   {
     "www": "http://www.gimnazjum7.com.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 131.0,
     "adres": "Pocztowa 28A",
     "dla_doroslych": false,
-    "ewd_mp": 0.23,
+    "sr_wynik_egz_mp": 100.53,
     "telefon": 338216185.0,
     "bs_sr_wynik_egz_hum": 1.21,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0517338,
-    "liczba_uczniow": 129.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 2.75,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 0.79,
-    "liczba_dopasowan": 1.0,
-    "fax": 338216185.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 1.77,
     "korelacja_mp": 0.6,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.7844752,
+    "stdev_wynik_egz_mp": 14.35,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5674.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 100.53,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.63,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 1.0,
     "ewd_max90_mp": 1.17,
-    "stdev_wynik_egz_mp": 14.35,
+    "fax": 338216185.0,
     "stdev_wynik_egz_hum": 13.7,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-309",
     "sr_wynik_egz_obu": 101.17,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.77,
     "ewd_min90_mp": -0.71,
-    "lat": 49.7844752,
+    "ewd_mp": 0.23,
+    "lp_sio": 5729.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 101.8,
     "bs_ewd_mp": 0.73,
     "ewd_hum_gwiazdki_pow": 3.0,
     "oddzialy": 6.0,
     "nazwa": "Gimnazjum nr 7 im. ks. G. Piramowicza",
-    "procent_dziewczat": 43.4108527132,
-    "bs_sr_wynik_egz_mp": 1.23,
-    "id_szkoly": 19610
+    "procent_dziewczat": 41.2213740458,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 97.951100904209639,
+          "egz_norm_std": 13.166516747285449,
+          "probka": 81.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 110.32798480677414,
+          "egz_norm_std": 14.342735469774663,
+          "probka": 80.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.017842805939964,
+          "egz_norm_std": 13.244176902748499,
+          "probka": 61.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 102.08133401645073,
+          "egz_norm_std": 12.9289388947874,
+          "probka": 61.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.87090764203852,
+          "egz_norm_std": 13.632672630734598,
+          "probka": 77.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 101.94860580815971,
+          "egz_norm_std": 13.222288040335364,
+          "probka": 77.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.76398202257452,
+          "egz_norm_std": 14.288774814194966,
+          "probka": 81.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 106.06886997663466,
+          "egz_norm_std": 14.701027723816061,
+          "probka": 82.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.44614755078319,
+          "egz_norm_std": 16.33474453784978,
+          "probka": 46.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 100.95971523645359,
+          "egz_norm_std": 13.220101532584088,
+          "probka": 46.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.57785863972236,
+          "egz_norm_std": 13.653890591036401,
+          "probka": 57.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 98.69430509873672,
+          "egz_norm_std": 11.887994814926492,
+          "probka": 57.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.41062775909164,
+          "egz_norm_std": 17.075335414129945,
+          "probka": 68.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 105.38179889491028,
+          "egz_norm_std": 14.76752367914418,
+          "probka": 68.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.64149958912409,
+          "egz_norm_std": 16.091852998309491,
+          "probka": 75.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 99.704188818262523,
+          "egz_norm_std": 14.524439750558644,
+          "probka": 75.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.20747790752429,
+          "egz_norm_std": 14.090893903898781,
+          "probka": 75.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 100.53707966511887,
+          "egz_norm_std": 12.780724418239336,
+          "probka": 76.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.42022078653069,
+          "egz_norm_std": 14.513995892889225,
+          "probka": 61.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 101.39323643205795,
+          "egz_norm_std": 14.725982742973105,
+          "probka": 61.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 109.4738169937433,
+          "egz_norm_std": 15.103804291103975,
+          "probka": 41.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 103.22890620657101,
+          "egz_norm_std": 15.92407065391855,
+          "probka": 41.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 104.11327997151064,
+          "egz_norm_std": 15.013562458836672,
+          "probka": 41.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 104.7117202489361,
+          "egz_norm_std": 16.190880175010509,
+          "probka": 41.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 99.617998680265998,
+          "egz_norm_std": 14.06683172168775,
+          "probka": 43.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 96.793548933864216,
+          "egz_norm_std": 13.880008213457147,
+          "probka": 43.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 100.27800422377531,
+          "egz_norm_std": 13.239443183966007,
+          "probka": 43.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 99.058047545506554,
+          "egz_norm_std": 12.768142534490071,
+          "probka": 43.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.23
   },
   {
-    "www": "http://gim8bb.oswiata.org.pl",
+    "www": "http://gimnazjum8.setia.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 208.0,
     "adres": "Doliny Mi\u0119tusiej 5",
     "dla_doroslych": false,
-    "ewd_mp": -3.03,
+    "sr_wynik_egz_mp": 96.24,
     "telefon": 338188732.0,
     "bs_sr_wynik_egz_hum": 0.87,
     "sr_wynik_egz_obu_gwiazdki_pow": 2.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
-    "lng": 19.0339428,
-    "liczba_uczniow": 260.0,
+    "lng": 19.033942800000002,
     "id_powiatu": 61,
     "ewd_max90_hum": 0.04,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -1.59,
-    "liczba_dopasowan": 1.0,
-    "fax": 338188732.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -0.78,
     "korelacja_mp": 0.69,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8023771,
+    "stdev_wynik_egz_mp": 12.61,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": 5675.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 96.24,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.73,
     "sr_wynik_egz_mp_gwiazdki_pow": 2.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": -2.25,
-    "stdev_wynik_egz_mp": 12.61,
+    "fax": 338188732.0,
     "stdev_wynik_egz_hum": 12.28,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-316",
     "sr_wynik_egz_obu": 97.57,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.64,
     "ewd_min90_mp": -3.81,
-    "lat": 49.8023771,
+    "ewd_mp": -3.03,
+    "lp_sio": 5730.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 98.9,
     "bs_ewd_mp": 0.61,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": 10.0,
+    "oddzialy": 8.0,
     "nazwa": "Gimnazjum nr 8 im. Tytusa Cha\u0142ubi\u0144skiego",
-    "procent_dziewczat": 48.8461538462,
-    "bs_sr_wynik_egz_mp": 0.89,
-    "id_szkoly": 19611
+    "procent_dziewczat": 49.5192307692,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 103.07190510034356,
+          "egz_norm_std": 12.146179219454368,
+          "probka": 190.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 104.91187598974237,
+          "egz_norm_std": 12.395858822408695,
+          "probka": 190.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.03729382743755,
+          "egz_norm_std": 13.615998735559435,
+          "probka": 176.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 108.02161108381857,
+          "egz_norm_std": 15.796345217178303,
+          "probka": 176.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.746906807028353,
+          "egz_norm_std": 14.165882014496141,
+          "probka": 124.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 102.14490016309864,
+          "egz_norm_std": 15.365751204157355,
+          "probka": 125.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.17853305333782,
+          "egz_norm_std": 13.631508440092876,
+          "probka": 114.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 104.81284320402641,
+          "egz_norm_std": 13.217855040840798,
+          "probka": 114.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.85165910518108,
+          "egz_norm_std": 14.304950902857131,
+          "probka": 107.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 109.1518106261186,
+          "egz_norm_std": 12.50722089087358,
+          "probka": 107.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.637302685613591,
+          "egz_norm_std": 13.668025370997336,
+          "probka": 89.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 100.88730897716476,
+          "egz_norm_std": 10.993397023584638,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.34639979369774,
+          "egz_norm_std": 13.76393034126931,
+          "probka": 71.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 102.7875227075435,
+          "egz_norm_std": 14.239841067416176,
+          "probka": 71.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.701483105352594,
+          "egz_norm_std": 13.174349662440626,
+          "probka": 60.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 95.851499358481718,
+          "egz_norm_std": 12.918886925870225,
+          "probka": 60.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.042831150856301,
+          "egz_norm_std": 13.371573417070785,
+          "probka": 77.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 105.33303897412165,
+          "egz_norm_std": 13.864138942255332,
+          "probka": 77.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.838915622743087,
+          "egz_norm_std": 13.768012679014873,
+          "probka": 64.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 98.755642271294562,
+          "egz_norm_std": 10.56624765995883,
+          "probka": 64.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 100.82268252343351,
+          "egz_norm_std": 12.843028532553143,
+          "probka": 53.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 98.509375838234959,
+          "egz_norm_std": 11.263881503462892,
+          "probka": 53.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 99.873937102298925,
+          "egz_norm_std": 13.873887213361948,
+          "probka": 53.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 98.351927421705128,
+          "egz_norm_std": 12.291083098967171,
+          "probka": 53.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 97.477215429244922,
+          "egz_norm_std": 12.555657499111449,
+          "probka": 94.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 93.686190699393521,
+          "egz_norm_std": 12.542889149787323,
+          "probka": 94.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 102.05378572289928,
+          "egz_norm_std": 11.454767864147975,
+          "probka": 94.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 96.966450490750006,
+          "egz_norm_std": 12.406347742261927,
+          "probka": 94.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.89
   },
   {
-    "www": "http://www.gim13.compuless.pl",
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": NaN,
     "adres": "Bratk\u00f3w 6",
     "dla_doroslych": false,
-    "ewd_mp": 3.23,
-    "telefon": 338151224.0,
+    "sr_wynik_egz_mp": 99.72,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 1.05,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": NaN,
     "przyszpitalna": false,
-    "lng": 19.0141316,
-    "liczba_uczniow": 172.0,
+    "lng": 19.014131600000002,
     "id_powiatu": 61,
     "ewd_max90_hum": 2.57,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 0.68,
-    "liczba_dopasowan": 1.0,
-    "fax": 338151224.0,
     "location_type": "ROOFTOP",
     "ewd_hum": 1.62,
     "korelacja_mp": 0.69,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.81960120000001,
+    "stdev_wynik_egz_mp": 12.57,
     "ewd_mp_gwiazdki_pow": 4.0,
-    "id_sio": 5662.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 99.72,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.7,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": NaN,
     "ewd_max90_mp": 4.13,
-    "stdev_wynik_egz_mp": 12.57,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 12.55,
+    "specjalna_y": NaN,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 98.89,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.74,
     "ewd_min90_mp": 2.32,
-    "lat": 49.8196012,
+    "ewd_mp": 3.23,
+    "lp_sio": NaN,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 98.05,
     "bs_ewd_mp": 0.71,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": 7.0,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum nr 13 z Oddzia\u0142ami Integracyjnymi im. ks. Jana Twardowskiego",
-    "procent_dziewczat": 34.3023255814,
-    "bs_sr_wynik_egz_mp": 1.03,
-    "id_szkoly": 19614
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 100.66460054808056,
+          "egz_norm_std": 14.324811167130745,
+          "probka": 208.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 105.88171279131264,
+          "egz_norm_std": 12.404970830865786,
+          "probka": 208.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.191594799909311,
+          "egz_norm_std": 13.722797781618045,
+          "probka": 132.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 103.24046231925922,
+          "egz_norm_std": 14.134154612062357,
+          "probka": 132.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.63617371436465,
+          "egz_norm_std": 14.423662651703069,
+          "probka": 160.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 101.93882613604076,
+          "egz_norm_std": 13.729811957690199,
+          "probka": 160.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.535155738891618,
+          "egz_norm_std": 10.999528335075452,
+          "probka": 108.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 99.207137850393224,
+          "egz_norm_std": 10.001099618494703,
+          "probka": 110.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.98234159368141,
+          "egz_norm_std": 14.296785846546063,
+          "probka": 95.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 102.75208879774804,
+          "egz_norm_std": 12.097951425224194,
+          "probka": 95.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.134518776297384,
+          "egz_norm_std": 15.394521264430431,
+          "probka": 89.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 98.013892585846804,
+          "egz_norm_std": 12.714822704877193,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 94.243287816719487,
+          "egz_norm_std": 12.429403896598126,
+          "probka": 46.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 100.22775878445542,
+          "egz_norm_std": 11.244066303164132,
+          "probka": 46.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.603246858295918,
+          "egz_norm_std": 13.741465113536046,
+          "probka": 69.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 97.845555828028608,
+          "egz_norm_std": 11.66428728156966,
+          "probka": 69.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.17975515887206,
+          "egz_norm_std": 11.902087512738195,
+          "probka": 57.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 102.0070495829217,
+          "egz_norm_std": 10.679172006728605,
+          "probka": 57.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.24127873823878,
+          "egz_norm_std": 10.879889199214624,
+          "probka": 54.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 94.802462460740571,
+          "egz_norm_std": 9.9813579775104628,
+          "probka": 54.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 104.14132217331979,
+          "egz_norm_std": 12.686880314307349,
+          "probka": 48.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 104.11497733577457,
+          "egz_norm_std": 13.168027864140234,
+          "probka": 48.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 100.57772493891599,
+          "egz_norm_std": 12.229842324616886,
+          "probka": 48.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 101.63283251464549,
+          "egz_norm_std": 13.90192294623469,
+          "probka": 48.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 98.540622001939639,
+          "egz_norm_std": 12.391220463745361,
+          "probka": 64.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 98.045090848807774,
+          "egz_norm_std": 14.361980575963907,
+          "probka": 64.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 99.060950676454851,
+          "egz_norm_std": 11.987843600588636,
+          "probka": 64.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 97.188738896643869,
+          "egz_norm_std": 13.006992913631096,
+          "probka": 64.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.03
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 250.0,
     "adres": "Maza\u0144cowicka 34",
     "dla_doroslych": false,
-    "ewd_mp": -1.2,
-    "telefon": 338126456.0,
+    "sr_wynik_egz_mp": 96.99,
+    "telefon": 338125664.0,
     "bs_sr_wynik_egz_hum": 0.77,
     "sr_wynik_egz_obu_gwiazdki_pow": 2.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
-    "lng": 19.0341002,
-    "liczba_uczniow": 296.0,
+    "lng": 19.034100199999997,
     "id_powiatu": 61,
     "ewd_max90_hum": -0.19,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -1.51,
-    "liczba_dopasowan": 1.0,
-    "fax": 338126456.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -0.85,
     "korelacja_mp": 0.65,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8554858,
+    "stdev_wynik_egz_mp": 13.41,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5663.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 96.99,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.67,
     "sr_wynik_egz_mp_gwiazdki_pow": 2.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 2.0,
     "ewd_max90_mp": -0.57,
-    "stdev_wynik_egz_mp": 13.41,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 13.52,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-346",
     "sr_wynik_egz_obu": 97.28,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.51,
     "ewd_min90_mp": -1.83,
-    "lat": 49.8554858,
+    "ewd_mp": -1.2,
+    "lp_sio": 5719.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 97.58,
     "bs_ewd_mp": 0.49,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": 12.0,
+    "oddzialy": 10.0,
     "nazwa": "Gimnazjum nr 14 im. Jana Paw\u0142a II",
-    "procent_dziewczat": 46.6216216216,
-    "bs_sr_wynik_egz_mp": 0.76,
-    "id_szkoly": 19615
+    "procent_dziewczat": 49.2,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 94.053532393564055,
+          "egz_norm_std": 14.892582162773854,
+          "probka": 169.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 103.47714418687386,
+          "egz_norm_std": 13.889800794020084,
+          "probka": 169.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.77554287508831,
+          "egz_norm_std": 14.212784673647578,
+          "probka": 171.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 104.7381788685647,
+          "egz_norm_std": 13.010616489442727,
+          "probka": 171.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.77696525248535,
+          "egz_norm_std": 12.569187666549402,
+          "probka": 145.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 106.20198268192974,
+          "egz_norm_std": 12.121933761868608,
+          "probka": 146.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.25658281082994,
+          "egz_norm_std": 12.893527870417588,
+          "probka": 150.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 104.36615952058406,
+          "egz_norm_std": 13.435462284469052,
+          "probka": 150.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.98795044022923,
+          "egz_norm_std": 12.964896978185903,
+          "probka": 161.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 103.41757600558624,
+          "egz_norm_std": 11.142601899763076,
+          "probka": 161.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.20425101791537,
+          "egz_norm_std": 13.24763733405165,
+          "probka": 164.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 100.80583147394231,
+          "egz_norm_std": 12.182270446998718,
+          "probka": 164.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.517232341237502,
+          "egz_norm_std": 13.232341151837788,
+          "probka": 128.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 97.48992938761377,
+          "egz_norm_std": 12.405594137305515,
+          "probka": 128.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.730774310868838,
+          "egz_norm_std": 14.497828870419214,
+          "probka": 120.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 96.189912374365008,
+          "egz_norm_std": 13.117392240285175,
+          "probka": 120.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.667611697285992,
+          "egz_norm_std": 12.229438623396087,
+          "probka": 107.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 102.85908831388204,
+          "egz_norm_std": 13.005066531446079,
+          "probka": 108.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.773246172695181,
+          "egz_norm_std": 11.200145288286835,
+          "probka": 93.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 97.028745420272116,
+          "egz_norm_std": 10.472201467518547,
+          "probka": 93.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 103.40791450861254,
+          "egz_norm_std": 14.614976028928929,
+          "probka": 111.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 99.490805792780137,
+          "egz_norm_std": 14.624655178413846,
+          "probka": 111.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 99.858520635825982,
+          "egz_norm_std": 14.096449125628922,
+          "probka": 111.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 100.20849177458506,
+          "egz_norm_std": 14.228825616204093,
+          "probka": 111.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 95.977279739958078,
+          "egz_norm_std": 13.403103761475911,
+          "probka": 118.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 95.530242702542211,
+          "egz_norm_std": 13.534660095015161,
+          "probka": 117.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 97.495341091288324,
+          "egz_norm_std": 12.299424312616026,
+          "probka": 118.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 96.642668185830772,
+          "egz_norm_std": 13.286891737689578,
+          "probka": 117.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.76
   },
   {
     "www": "http://www.gimnazjum15.bielsko.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 278.0,
     "adres": "Cieszy\u0144ska 385",
     "dla_doroslych": false,
-    "ewd_mp": -0.22,
+    "sr_wynik_egz_mp": 98.44,
     "telefon": 338185190.0,
     "bs_sr_wynik_egz_hum": 0.91,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
-    "lng": 18.9854733,
-    "liczba_uczniow": 232.0,
+    "lng": 18.985473300000002,
     "id_powiatu": 61,
     "ewd_max90_hum": 2.27,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 0.64,
-    "liczba_dopasowan": 1.0,
-    "fax": 338185190.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 1.45,
     "korelacja_mp": 0.67,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.808068299999995,
+    "stdev_wynik_egz_mp": 13.03,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5664.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 98.44,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.7,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 0.56,
-    "stdev_wynik_egz_mp": 13.03,
+    "fax": 338185190.0,
     "stdev_wynik_egz_hum": 12.16,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-382",
     "sr_wynik_egz_obu": 99.32,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.64,
     "ewd_min90_mp": -1.01,
-    "lat": 49.8080683,
+    "ewd_mp": -0.22,
+    "lp_sio": 5720.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 100.19,
     "bs_ewd_mp": 0.61,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": 10.0,
+    "oddzialy": 11.0,
     "nazwa": "Gimnazjum nr 15 im. Jana III Sobieskiego",
-    "procent_dziewczat": 41.8103448276,
-    "bs_sr_wynik_egz_mp": 0.92,
-    "id_szkoly": 19616
+    "procent_dziewczat": 42.805755395700004,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 99.295837614223217,
+          "egz_norm_std": 13.807334772554155,
+          "probka": 121.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 107.50637712381985,
+          "egz_norm_std": 14.268296107578356,
+          "probka": 121.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.31709408852436,
+          "egz_norm_std": 12.951526732736285,
+          "probka": 125.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 100.24674852118557,
+          "egz_norm_std": 12.946127282843474,
+          "probka": 125.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.22343295271344,
+          "egz_norm_std": 14.083122991095175,
+          "probka": 127.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 101.62115169034942,
+          "egz_norm_std": 14.869732696840224,
+          "probka": 127.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.28166191468088,
+          "egz_norm_std": 13.279055680012615,
+          "probka": 130.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 104.07731228212252,
+          "egz_norm_std": 13.859417051022255,
+          "probka": 131.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.12722422663313,
+          "egz_norm_std": 13.981174712357928,
+          "probka": 103.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 103.73095968035172,
+          "egz_norm_std": 12.716703587045457,
+          "probka": 103.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.10182428523918,
+          "egz_norm_std": 14.310781578926887,
+          "probka": 98.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 99.936194901482793,
+          "egz_norm_std": 12.54861237192765,
+          "probka": 98.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.40645707346658,
+          "egz_norm_std": 11.896722309914468,
+          "probka": 93.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 104.91286289043212,
+          "egz_norm_std": 14.432140989277242,
+          "probka": 93.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.59787263155422,
+          "egz_norm_std": 13.030701073273336,
+          "probka": 90.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 100.48286970792722,
+          "egz_norm_std": 11.771256056552275,
+          "probka": 90.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.731933234399648,
+          "egz_norm_std": 12.412886955021055,
+          "probka": 93.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 100.19207907844972,
+          "egz_norm_std": 11.472883744931874,
+          "probka": 93.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.11608168440415,
+          "egz_norm_std": 12.865480072349925,
+          "probka": 78.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 100.80330597736756,
+          "egz_norm_std": 13.4040621636079,
+          "probka": 78.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 105.57969079719965,
+          "egz_norm_std": 12.620736857744275,
+          "probka": 70.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 100.82638419463809,
+          "egz_norm_std": 11.862581578487635,
+          "probka": 70.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 99.8385702518828,
+          "egz_norm_std": 13.834745224035856,
+          "probka": 70.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 99.488751907222635,
+          "egz_norm_std": 12.025027903411472,
+          "probka": 70.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 98.623306692210278,
+          "egz_norm_std": 10.537210841852788,
+          "probka": 65.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 95.262827343599639,
+          "egz_norm_std": 12.723795718622124,
+          "probka": 65.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 96.262296558797516,
+          "egz_norm_std": 11.656998858536074,
+          "probka": 65.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 97.831533842228865,
+          "egz_norm_std": 12.020409185393028,
+          "probka": 65.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.92
   },
   {
     "www": "http://www.gimnazjum11.civ.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 532.0,
     "adres": "Emilii Plater 3",
     "dla_doroslych": false,
-    "ewd_mp": 0.86,
+    "sr_wynik_egz_mp": 106.22,
     "telefon": 334976563.0,
     "bs_sr_wynik_egz_hum": 0.58,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0259128,
-    "liczba_uczniow": 530.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 5.55,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 4.49,
-    "liczba_dopasowan": 1.0,
-    "fax": 334976563.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 5.02,
     "korelacja_mp": 0.66,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.81914140000001,
+    "stdev_wynik_egz_mp": 13.25,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5660.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 4.0,
-    "sr_wynik_egz_mp": 106.22,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.71,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 1.36,
-    "stdev_wynik_egz_mp": 13.25,
+    "fax": 334976563.0,
     "stdev_wynik_egz_hum": 12.3,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 108.24,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.41,
     "ewd_min90_mp": 0.35,
-    "lat": 49.8191414,
+    "ewd_mp": 0.86,
+    "lp_sio": 5716.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 110.26,
     "bs_ewd_mp": 0.4,
     "ewd_hum_gwiazdki_pow": 4.0,
     "oddzialy": 18.0,
     "nazwa": "Gimnazjum nr 11 im. Jerzego Kukuczki",
-    "procent_dziewczat": 56.9811320755,
-    "bs_sr_wynik_egz_mp": 0.6,
-    "id_szkoly": 19620
+    "procent_dziewczat": 54.511278195500005,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 102.26552144983721,
+          "egz_norm_std": 15.229314246480884,
+          "probka": 192.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 108.48767357104894,
+          "egz_norm_std": 13.931295671012187,
+          "probka": 192.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 103.5784184293625,
+          "egz_norm_std": 13.872577662217505,
+          "probka": 177.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 106.96278066995121,
+          "egz_norm_std": 14.93617857390651,
+          "probka": 177.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.50293524022102,
+          "egz_norm_std": 14.88159948081791,
+          "probka": 183.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 110.13240374744909,
+          "egz_norm_std": 14.669901527719677,
+          "probka": 185.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.88010501915674,
+          "egz_norm_std": 14.65602903595058,
+          "probka": 178.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 111.43757191320006,
+          "egz_norm_std": 14.378483955640151,
+          "probka": 184.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.9058340531012,
+          "egz_norm_std": 14.325908402157975,
+          "probka": 168.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 110.06801549850556,
+          "egz_norm_std": 13.385421172210064,
+          "probka": 170.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.62223948409391,
+          "egz_norm_std": 14.364442755615244,
+          "probka": 167.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 108.79397791194641,
+          "egz_norm_std": 12.681687423178015,
+          "probka": 167.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 106.62889213355888,
+          "egz_norm_std": 14.641114062810436,
+          "probka": 188.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 111.5887053056926,
+          "egz_norm_std": 13.113190709708094,
+          "probka": 188.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 106.95497975667436,
+          "egz_norm_std": 14.38963696503952,
+          "probka": 176.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 113.20569671078863,
+          "egz_norm_std": 12.917773899344153,
+          "probka": 176.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.93836743114193,
+          "egz_norm_std": 13.448169819353073,
+          "probka": 164.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 111.92697628360838,
+          "egz_norm_std": 13.694228749917967,
+          "probka": 164.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.96785566945272,
+          "egz_norm_std": 13.239686406974752,
+          "probka": 166.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 110.17644653197409,
+          "egz_norm_std": 12.732569429224439,
+          "probka": 166.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 113.7778289483001,
+          "egz_norm_std": 12.060869662120799,
+          "probka": 179.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 107.32152508197728,
+          "egz_norm_std": 13.638935701428993,
+          "probka": 179.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 109.93565144531199,
+          "egz_norm_std": 13.051420521101035,
+          "probka": 179.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 108.0611697363683,
+          "egz_norm_std": 14.230503825182824,
+          "probka": 179.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 109.24597541024204,
+          "egz_norm_std": 12.125738286453462,
+          "probka": 163.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 104.20328896156029,
+          "egz_norm_std": 11.600747595530596,
+          "probka": 163.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 107.12141263771515,
+          "egz_norm_std": 13.038116363186528,
+          "probka": 163.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 106.78201010004135,
+          "egz_norm_std": 13.469633078808824,
+          "probka": 163.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.6
   },
   {
     "www": "http://www.edu-sport.pl",
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "Pl. Wolno\u015bci 10",
     "dla_doroslych": false,
-    "ewd_mp": 1.34,
+    "sr_wynik_egz_mp": 103.83,
     "telefon": 338103388.0,
     "bs_sr_wynik_egz_hum": 1.83,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": false,
     "przyszpitalna": false,
     "lng": 19.0542087,
-    "liczba_uczniow": null,
     "id_powiatu": 61,
     "ewd_max90_hum": 0.92,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -2.28,
-    "liczba_dopasowan": 1.0,
-    "fax": 338103388.0,
     "location_type": "ROOFTOP",
     "ewd_hum": -0.68,
     "korelacja_mp": 0.63,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.823318799999996,
+    "stdev_wynik_egz_mp": 12.78,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5687.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 103.83,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.68,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 2.88,
-    "stdev_wynik_egz_mp": 12.78,
+    "fax": 338103388.0,
     "stdev_wynik_egz_hum": 11.98,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 103.8,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.25,
     "ewd_min90_mp": -0.19,
-    "lat": 49.8233188,
+    "ewd_mp": 1.34,
+    "lp_sio": 5743.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 103.78,
     "bs_ewd_mp": 1.2,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum Mistrzostwa Sportowego",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.9,
-    "id_szkoly": 19624
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 103.9101962744825,
+          "egz_norm_std": 11.905253825471457,
+          "probka": 15.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 106.87227157438976,
+          "egz_norm_std": 11.404336902990275,
+          "probka": 15.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.99172439412412,
+          "egz_norm_std": 10.147870276748717,
+          "probka": 12.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 105.69210700824013,
+          "egz_norm_std": 10.267428980335923,
+          "probka": 12.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.02293037701703,
+          "egz_norm_std": 12.215305223484783,
+          "probka": 13.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 104.76971034085092,
+          "egz_norm_std": 12.374330926238491,
+          "probka": 13.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.61222706571684,
+          "egz_norm_std": 7.6955968618610493,
+          "probka": 14.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 103.83785629398544,
+          "egz_norm_std": 10.892925915383094,
+          "probka": 14.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 108.9701263240464,
+          "egz_norm_std": 9.7291150362858474,
+          "probka": 16.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 106.59471555180825,
+          "egz_norm_std": 10.331681345337127,
+          "probka": 16.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 112.16213440786377,
+          "egz_norm_std": 9.9518751225768316,
+          "probka": 13.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 108.64884079741717,
+          "egz_norm_std": 10.779128286997487,
+          "probka": 13.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 103.48026411845792,
+          "egz_norm_std": 11.485541647182041,
+          "probka": 13.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 109.11201536874472,
+          "egz_norm_std": 13.630808493399506,
+          "probka": 13.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 99.289053009372637,
+          "egz_norm_std": 11.849200557010985,
+          "probka": 17.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 96.29478773962002,
+          "egz_norm_std": 14.278510066812773,
+          "probka": 17.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 98.246016829979482,
+          "egz_norm_std": 10.356971418237118,
+          "probka": 17.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 99.771277493278518,
+          "egz_norm_std": 10.577548468782199,
+          "probka": 17.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.9
   },
   {
-    "www": "http://www.szkolacbm.eu",
+    "www": "http://www.szkolacbm.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 292.0,
     "adres": "Broniewskiego 13",
     "dla_doroslych": false,
-    "ewd_mp": 9.38,
+    "sr_wynik_egz_mp": 123.58,
     "telefon": 338292409.0,
     "bs_sr_wynik_egz_hum": 0.67,
     "sr_wynik_egz_obu_gwiazdki_pow": 5.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
     "lng": 19.0531391,
-    "liczba_uczniow": 273.0,
     "id_powiatu": 61,
     "ewd_max90_hum": 8.91,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 7.47,
-    "liczba_dopasowan": 1.0,
-    "fax": 338292409.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 8.19,
     "korelacja_mp": 0.8,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8192023,
+    "stdev_wynik_egz_mp": 10.94,
     "ewd_mp_gwiazdki_pow": 5.0,
-    "id_sio": 5680.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 5.0,
-    "sr_wynik_egz_mp": 123.58,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.85,
     "sr_wynik_egz_mp_gwiazdki_pow": 5.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 10.07,
-    "stdev_wynik_egz_mp": 10.94,
+    "fax": 338292409.0,
     "stdev_wynik_egz_hum": 9.93,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 122.46,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.56,
     "ewd_min90_mp": 8.68,
-    "lat": 49.8192023,
+    "ewd_mp": 9.38,
+    "lp_sio": 5735.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 121.33,
     "bs_ewd_mp": 0.54,
     "ewd_hum_gwiazdki_pow": 5.0,
-    "oddzialy": 9.0,
+    "oddzialy": 10.0,
     "nazwa": "Gimnazjum Zgromadzenia C\u00f3rek Bo\u017cej Mi\u0142o\u015bci w ZSO",
-    "procent_dziewczat": 57.8754578755,
-    "bs_sr_wynik_egz_mp": 0.68,
-    "id_szkoly": 19626
+    "procent_dziewczat": 66.095890411,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 114.66801685771375,
+          "egz_norm_std": 13.209562775399187,
+          "probka": 113.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 112.87954087645731,
+          "egz_norm_std": 9.4180790328058794,
+          "probka": 113.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 114.46664986454657,
+          "egz_norm_std": 9.996755779188101,
+          "probka": 83.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 117.68022759058586,
+          "egz_norm_std": 9.8655387310581304,
+          "probka": 86.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 120.96675513419336,
+          "egz_norm_std": 11.28733840370885,
+          "probka": 89.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 117.17982224666643,
+          "egz_norm_std": 10.026605340117973,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 121.300639751682,
+          "egz_norm_std": 10.443136441591589,
+          "probka": 87.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 119.09803379894774,
+          "egz_norm_std": 8.6201557460831708,
+          "probka": 87.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 120.29775325364656,
+          "egz_norm_std": 9.3626740776096895,
+          "probka": 89.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 120.64441620148024,
+          "egz_norm_std": 10.469746800891144,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 119.42395268577695,
+          "egz_norm_std": 9.0877633714060639,
+          "probka": 87.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 121.73842450828023,
+          "egz_norm_std": 9.7595060344827402,
+          "probka": 87.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 122.42155194370842,
+          "egz_norm_std": 10.604696434611744,
+          "probka": 89.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 117.63125186369524,
+          "egz_norm_std": 9.5038679272490434,
+          "probka": 89.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 121.43969027750363,
+          "egz_norm_std": 9.8360570220219739,
+          "probka": 86.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 119.78775890451837,
+          "egz_norm_std": 7.7485727986561512,
+          "probka": 87.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 120.64605597439837,
+          "egz_norm_std": 8.8499624039576883,
+          "probka": 86.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 121.77869116576449,
+          "egz_norm_std": 9.6515204776492869,
+          "probka": 86.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 120.64761927127948,
+          "egz_norm_std": 9.4375586569605847,
+          "probka": 86.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 120.84003232894199,
+          "egz_norm_std": 13.512090223178607,
+          "probka": 86.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 119.60063135618833,
+          "egz_norm_std": 10.179245304394778,
+          "probka": 89.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 121.37832336190014,
+          "egz_norm_std": 9.7951450196462027,
+          "probka": 89.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 118.37870053245184,
+          "egz_norm_std": 10.782898649567239,
+          "probka": 89.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 118.54467285662965,
+          "egz_norm_std": 12.005841965572689,
+          "probka": 89.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 0.68
   },
   {
-    "www": "http://www.nowa-szkola.pl",
+    "www": NaN,
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "3 maja 17",
     "dla_doroslych": false,
-    "ewd_mp": -2.47,
-    "telefon": 664869133.0,
+    "sr_wynik_egz_mp": 96.02,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 2.83,
     "sr_wynik_egz_obu_gwiazdki_pow": 2.0,
+    "publiczna_y": NaN,
     "przyszpitalna": false,
-    "lng": 19.0447604,
-    "liczba_uczniow": null,
+    "lng": 19.044760399999998,
     "id_powiatu": 61,
     "ewd_max90_hum": 0.66,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -3.99,
-    "liczba_dopasowan": 1.0,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -1.67,
     "korelacja_mp": 0.61,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8262285,
+    "stdev_wynik_egz_mp": 11.52,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": 5689.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 96.02,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.64,
     "sr_wynik_egz_mp_gwiazdki_pow": 2.0,
     "id_wojewodztwa": 24,
+    "odl_dop": NaN,
     "ewd_max90_mp": -0.23,
-    "stdev_wynik_egz_mp": 11.52,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 11.33,
+    "specjalna_y": NaN,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 96.31,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.82,
     "ewd_min90_mp": -4.7,
-    "lat": 49.8262285,
+    "ewd_mp": -2.47,
+    "lp_sio": NaN,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 96.6,
     "bs_ewd_mp": 1.75,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Nowe Prywatne Gimnazjum",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 2.88,
-    "id_szkoly": 19628
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 110.95406222654465,
+          "egz_norm_std": NaN,
+          "probka": 1.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 101.02891735757591,
+          "egz_norm_std": NaN,
+          "probka": 1.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 88.274120549237537,
+          "egz_norm_std": 14.367466712997079,
+          "probka": 4.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 95.077105785238729,
+          "egz_norm_std": 7.3762265791621839,
+          "probka": 4.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 92.836529018541484,
+          "egz_norm_std": 13.369802490370647,
+          "probka": 4.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 94.529206133942338,
+          "egz_norm_std": 17.813570208346363,
+          "probka": 4.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 96.765780037593558,
+          "egz_norm_std": 15.292484561269946,
+          "probka": 12.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 92.666727829063703,
+          "egz_norm_std": 15.930055062685144,
+          "probka": 12.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 98.387572364171618,
+          "egz_norm_std": 11.819253747127025,
+          "probka": 12.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 93.185483203231428,
+          "egz_norm_std": 12.735055526981149,
+          "probka": 12.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 2.88
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "Micha\u0142owicza 55",
     "dla_doroslych": false,
-    "ewd_mp": -2.22,
-    "telefon": null,
+    "sr_wynik_egz_mp": 99.38,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 1.4,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": NaN,
     "przyszpitalna": false,
-    "lng": 19.03374,
-    "liczba_uczniow": null,
+    "lng": 19.033739999999998,
     "id_powiatu": 61,
     "ewd_max90_hum": -0.49,
-    "bliskosc": null,
     "ewd_min90_hum": -3.12,
-    "liczba_dopasowan": null,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -1.8,
     "korelacja_mp": 0.69,
-    "jak": null,
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.81328269999999,
+    "stdev_wynik_egz_mp": 12.12,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": null,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 99.38,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.73,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": NaN,
     "ewd_max90_mp": -0.96,
-    "stdev_wynik_egz_mp": 12.12,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 11.77,
+    "specjalna_y": NaN,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 98.81,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.02,
     "ewd_min90_mp": -3.47,
-    "lat": 49.8132827,
+    "ewd_mp": -2.22,
+    "lp_sio": NaN,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 98.24,
     "bs_ewd_mp": 0.98,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum Mistrzostwa Sportowego BBTS",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.43,
-    "id_szkoly": 19629
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 92.506271086284002,
+          "egz_norm_std": 9.3538004788970142,
+          "probka": 11.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 91.814868988515201,
+          "egz_norm_std": 11.92952753817822,
+          "probka": 11.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.50347090296196,
+          "egz_norm_std": 11.954739420849835,
+          "probka": 23.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 98.078844029321886,
+          "egz_norm_std": 10.417334327343925,
+          "probka": 23.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 90.664753414588361,
+          "egz_norm_std": 12.552965500154723,
+          "probka": 20.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 92.854536798314399,
+          "egz_norm_std": 10.563530268777107,
+          "probka": 20.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.114765573512912,
+          "egz_norm_std": 13.001458242606486,
+          "probka": 20.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 93.815982668213877,
+          "egz_norm_std": 11.556776824346036,
+          "probka": 20.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.7444140864075,
+          "egz_norm_std": 12.205678384077238,
+          "probka": 22.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 98.307334322247598,
+          "egz_norm_std": 10.822469039114518,
+          "probka": 22.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.23709116916793,
+          "egz_norm_std": 10.581603575842369,
+          "probka": 23.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 98.322158495144578,
+          "egz_norm_std": 7.892343549670132,
+          "probka": 23.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.66749129761908,
+          "egz_norm_std": 10.992408641044063,
+          "probka": 33.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 95.804683278701475,
+          "egz_norm_std": 11.010374346614331,
+          "probka": 33.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 96.419573770794713,
+          "egz_norm_std": 12.048675411864025,
+          "probka": 25.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 93.347227368330422,
+          "egz_norm_std": 11.417569436798964,
+          "probka": 25.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 100.90061338613759,
+          "egz_norm_std": 11.089354510329526,
+          "probka": 25.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 96.265482047481839,
+          "egz_norm_std": 9.1566462707660961,
+          "probka": 25.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 101.953583305056,
+          "egz_norm_std": 9.6562123783301956,
+          "probka": 26.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 104.64535943106115,
+          "egz_norm_std": 8.1576050783513168,
+          "probka": 26.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 99.65786533240059,
+          "egz_norm_std": 10.646917985011962,
+          "probka": 26.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 104.16045402387699,
+          "egz_norm_std": 11.633728790099546,
+          "probka": 26.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.43
   },
   {
     "www": "http://www.g9bb.zsoak.edu.pl",
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": 202.0,
     "adres": "Sternicza 4",
     "dla_doroslych": false,
-    "ewd_mp": -1.18,
+    "sr_wynik_egz_mp": 98.94,
     "telefon": 338119221.0,
     "bs_sr_wynik_egz_hum": 0.98,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": true,
     "przyszpitalna": false,
-    "lng": 19.0243714,
-    "liczba_uczniow": 200.0,
+    "lng": 19.024371399999996,
     "id_powiatu": 61,
     "ewd_max90_hum": 1.35,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -0.31,
-    "liczba_dopasowan": 1.0,
-    "fax": 338119221.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 0.52,
     "korelacja_mp": 0.62,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8092321,
+    "stdev_wynik_egz_mp": 13.96,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5676.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 98.94,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.66,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": -0.39,
-    "stdev_wynik_egz_mp": 13.96,
+    "fax": 338119221.0,
     "stdev_wynik_egz_hum": 13.44,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-308",
     "sr_wynik_egz_obu": 99.79,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.65,
     "ewd_min90_mp": -1.98,
-    "lat": 49.8092321,
+    "ewd_mp": -1.18,
+    "lp_sio": 5731.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 100.63,
     "bs_ewd_mp": 0.62,
     "ewd_hum_gwiazdki_pow": 3.0,
     "oddzialy": 9.0,
     "nazwa": "Gimnazjum nr 9 z Oddzia\u0142ami Integracyjnymi w ZSO im. Armii Krajowej",
-    "procent_dziewczat": 50.5,
-    "bs_sr_wynik_egz_mp": 1.0,
-    "id_szkoly": 19630
+    "procent_dziewczat": 50.9900990099,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 101.01237385391623,
+          "egz_norm_std": 12.768686453763008,
+          "probka": 131.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 102.31650448470371,
+          "egz_norm_std": 13.701083061780579,
+          "probka": 131.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.53274623150369,
+          "egz_norm_std": 12.153794527065889,
+          "probka": 129.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 108.70098937559318,
+          "egz_norm_std": 15.894386722018998,
+          "probka": 129.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.95703868455324,
+          "egz_norm_std": 12.398823219496055,
+          "probka": 108.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 107.20861288899791,
+          "egz_norm_std": 10.575096816214597,
+          "probka": 108.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.29928092938276,
+          "egz_norm_std": 13.022700170464573,
+          "probka": 138.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 100.75518167621073,
+          "egz_norm_std": 12.873386753449633,
+          "probka": 138.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.34912992446456,
+          "egz_norm_std": 12.474596694619699,
+          "probka": 110.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 103.19093067023952,
+          "egz_norm_std": 12.111200610802626,
+          "probka": 110.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.34253941001995,
+          "egz_norm_std": 12.055034844571654,
+          "probka": 102.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 103.43515439698808,
+          "egz_norm_std": 11.118321117653492,
+          "probka": 102.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.93396423766168,
+          "egz_norm_std": 12.902602614382964,
+          "probka": 92.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 103.74212453396622,
+          "egz_norm_std": 12.695329368123966,
+          "probka": 92.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.32001371595128,
+          "egz_norm_std": 12.810934325912365,
+          "probka": 85.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 101.38018405354143,
+          "egz_norm_std": 14.005230969300687,
+          "probka": 85.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.677322350485397,
+          "egz_norm_std": 11.411832981215804,
+          "probka": 64.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 94.793867119449516,
+          "egz_norm_std": 10.681508606444684,
+          "probka": 64.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 94.39293099996425,
+          "egz_norm_std": 12.026151590471606,
+          "probka": 67.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 93.905429463414237,
+          "egz_norm_std": 9.9225579179442356,
+          "probka": 67.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 104.30806846250731,
+          "egz_norm_std": 11.682151028689056,
+          "probka": 79.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 99.964400669485514,
+          "egz_norm_std": 12.701409528216756,
+          "probka": 79.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 101.46175357492396,
+          "egz_norm_std": 13.266302133739169,
+          "probka": 79.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 99.589767108927447,
+          "egz_norm_std": 13.296932666964114,
+          "probka": 79.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 103.17300415423679,
+          "egz_norm_std": 11.939765204887669,
+          "probka": 60.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 102.71212294097886,
+          "egz_norm_std": 14.597770254714188,
+          "probka": 61.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 104.81807203761801,
+          "egz_norm_std": 14.875433582744757,
+          "probka": 60.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 103.97275448007368,
+          "egz_norm_std": 11.849870478759923,
+          "probka": 61.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.0
   },
   {
     "www": "http://www.kopalinski.edu.pl",
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "Legion\u00f3w 24",
     "dla_doroslych": false,
-    "ewd_mp": 1.5,
+    "sr_wynik_egz_mp": 111.13,
     "telefon": 338165240.0,
     "bs_sr_wynik_egz_hum": 1.6,
     "sr_wynik_egz_obu_gwiazdki_pow": 4.0,
+    "publiczna_y": false,
     "przyszpitalna": false,
     "lng": 19.0546774,
-    "liczba_uczniow": null,
     "id_powiatu": 61,
     "ewd_max90_hum": 6.2,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 3.11,
-    "liczba_dopasowan": 1.0,
-    "fax": 338165240.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 4.65,
     "korelacja_mp": 0.7,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8267144,
+    "stdev_wynik_egz_mp": 11.59,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5682.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 4.0,
-    "sr_wynik_egz_mp": 111.13,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.75,
     "sr_wynik_egz_mp_gwiazdki_pow": 4.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 2.99,
-    "stdev_wynik_egz_mp": 11.59,
+    "fax": 338165240.0,
     "stdev_wynik_egz_hum": 10.52,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 112.37,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.21,
     "ewd_min90_mp": 0.02,
-    "lat": 49.8267144,
+    "ewd_mp": 1.5,
+    "lp_sio": 5738.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 113.61,
     "bs_ewd_mp": 1.16,
     "ewd_hum_gwiazdki_pow": 4.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Dwuj\u0119zyczne Gimnazjum im. W. Kopali\u0144skiego",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.66,
-    "id_szkoly": 19631
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 116.11365890844084,
+          "egz_norm_std": 10.451496284893439,
+          "probka": 10.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 122.86002830278844,
+          "egz_norm_std": 8.587938248210671,
+          "probka": 10.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 118.06885685497437,
+          "egz_norm_std": 11.181551290185526,
+          "probka": 10.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 116.87054913003942,
+          "egz_norm_std": 8.6436876643082101,
+          "probka": 10.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 116.34302363297556,
+          "egz_norm_std": 5.3741531308507762,
+          "probka": 10.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 113.06239345329577,
+          "egz_norm_std": 6.6157042557737054,
+          "probka": 10.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 111.70899284317458,
+          "egz_norm_std": 12.999706785003257,
+          "probka": 15.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 110.32995460376291,
+          "egz_norm_std": 13.809661105442581,
+          "probka": 15.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 111.7766729407834,
+          "egz_norm_std": 10.375009186604384,
+          "probka": 17.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 109.13395938223336,
+          "egz_norm_std": 9.0088902925604337,
+          "probka": 17.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 113.33798118938068,
+          "egz_norm_std": 7.7647053847754073,
+          "probka": 20.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 114.99389739558157,
+          "egz_norm_std": 11.13659588645395,
+          "probka": 20.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 118.5436814674763,
+          "egz_norm_std": 13.175877880352475,
+          "probka": 13.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 110.61725471605905,
+          "egz_norm_std": 12.281128476138404,
+          "probka": 13.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 113.37157666086128,
+          "egz_norm_std": 13.360101078538651,
+          "probka": 13.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 118.48590480170208,
+          "egz_norm_std": 9.6980950840276563,
+          "probka": 13.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 111.93601625162701,
+          "egz_norm_std": 7.1622710981865882,
+          "probka": 18.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 107.97476134723308,
+          "egz_norm_std": 7.3318350071547771,
+          "probka": 18.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 110.09853883063349,
+          "egz_norm_std": 9.0889492167323596,
+          "probka": 18.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 108.72507918652141,
+          "egz_norm_std": 10.272487792722252,
+          "probka": 18.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.66
   },
   {
     "www": "http://www.rejbb.pl",
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "A. Frycza Modrzewskiego 12",
     "dla_doroslych": false,
-    "ewd_mp": 8.14,
+    "sr_wynik_egz_mp": 119.33,
     "telefon": 338124256.0,
     "bs_sr_wynik_egz_hum": 1.19,
     "sr_wynik_egz_obu_gwiazdki_pow": 5.0,
+    "publiczna_y": false,
     "przyszpitalna": false,
     "lng": 19.0404049,
-    "liczba_uczniow": null,
     "id_powiatu": 61,
     "ewd_max90_hum": 4.46,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 2.2,
-    "liczba_dopasowan": 1.0,
-    "fax": 338151109.0,
     "location_type": "ROOFTOP",
     "ewd_hum": 3.33,
     "korelacja_mp": 0.67,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.823398600000004,
+    "stdev_wynik_egz_mp": 12.67,
     "ewd_mp_gwiazdki_pow": 5.0,
-    "id_sio": 5688.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 4.0,
-    "sr_wynik_egz_mp": 119.33,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.74,
     "sr_wynik_egz_mp_gwiazdki_pow": 5.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 9.22,
-    "stdev_wynik_egz_mp": 12.67,
+    "fax": 338151109.0,
     "stdev_wynik_egz_hum": 11.6,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 116.4,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.88,
     "ewd_min90_mp": 7.06,
-    "lat": 49.8233986,
+    "ewd_mp": 8.14,
+    "lp_sio": 5744.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 113.47,
     "bs_ewd_mp": 0.84,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum Towarzystwa Szkolnego im. M. Reja",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.26,
-    "id_szkoly": 19632
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 116.31784108616924,
+          "egz_norm_std": 13.549875720177553,
+          "probka": 63.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 116.77775881676891,
+          "egz_norm_std": 11.070514147582331,
+          "probka": 63.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 119.13389711618156,
+          "egz_norm_std": 11.076112578829171,
+          "probka": 64.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 116.02405862138441,
+          "egz_norm_std": 11.141516390157156,
+          "probka": 64.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 118.15014866376623,
+          "egz_norm_std": 9.9427539717813112,
+          "probka": 46.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 117.39235159358745,
+          "egz_norm_std": 11.909567188608673,
+          "probka": 49.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 117.30263949380516,
+          "egz_norm_std": 12.429983959813907,
+          "probka": 33.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 118.89291830529172,
+          "egz_norm_std": 10.608407800150193,
+          "probka": 36.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 117.80986449012778,
+          "egz_norm_std": 12.875937049380422,
+          "probka": 46.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 115.17171398719105,
+          "egz_norm_std": 10.503061167918462,
+          "probka": 46.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 120.32385607406258,
+          "egz_norm_std": 12.398324079482627,
+          "probka": 58.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 111.88047361533455,
+          "egz_norm_std": 10.254667073928935,
+          "probka": 58.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 122.67118034810343,
+          "egz_norm_std": 9.956879650363053,
+          "probka": 53.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 111.39596711339595,
+          "egz_norm_std": 11.571216936620312,
+          "probka": 53.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 116.77194835771351,
+          "egz_norm_std": 11.837511479884947,
+          "probka": 52.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 118.60591966518406,
+          "egz_norm_std": 11.658875288016036,
+          "probka": 52.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 117.46901254578309,
+          "egz_norm_std": 12.461221802444253,
+          "probka": 32.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 112.19933317570604,
+          "egz_norm_std": 12.920411694027381,
+          "probka": 32.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 117.61804273538624,
+          "egz_norm_std": 12.895746016134687,
+          "probka": 29.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 109.88857778018448,
+          "egz_norm_std": 13.233855511779444,
+          "probka": 31.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 111.64718235605189,
+          "egz_norm_std": 10.745809608829626,
+          "probka": 33.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 116.12502734482271,
+          "egz_norm_std": 9.7784043443613431,
+          "probka": 33.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 109.85277385882463,
+          "egz_norm_std": 10.074220617388267,
+          "probka": 33.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 115.77155010753704,
+          "egz_norm_std": 11.339372032545516,
+          "probka": 33.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 116.86205630798824,
+          "egz_norm_std": 10.561207771072182,
+          "probka": 40.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 118.91433238661229,
+          "egz_norm_std": 13.091086441988981,
+          "probka": 40.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 116.57524767124843,
+          "egz_norm_std": 10.275883586694896,
+          "probka": 40.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 119.60883646090612,
+          "egz_norm_std": 13.332292550904185,
+          "probka": 40.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.26
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": NaN,
     "adres": "Gen. Sikorskiego 8",
     "dla_doroslych": false,
-    "ewd_mp": -2.03,
-    "telefon": null,
+    "sr_wynik_egz_mp": 98.15,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 1.66,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": NaN,
     "przyszpitalna": false,
     "lng": 19.0421169,
-    "liczba_uczniow": null,
     "id_powiatu": 61,
     "ewd_max90_hum": 2.27,
-    "bliskosc": null,
     "ewd_min90_hum": -0.67,
-    "liczba_dopasowan": null,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 0.8,
     "korelacja_mp": 0.66,
-    "jak": null,
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8195048,
+    "stdev_wynik_egz_mp": 12.48,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": null,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 3.0,
-    "sr_wynik_egz_mp": 98.15,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.69,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": NaN,
     "ewd_max90_mp": -0.62,
-    "stdev_wynik_egz_mp": 12.48,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 12.18,
+    "specjalna_y": NaN,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 100.29,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.15,
     "ewd_min90_mp": -3.44,
-    "lat": 49.8195048,
+    "ewd_mp": -2.03,
+    "lp_sio": NaN,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 102.42,
     "bs_ewd_mp": 1.1,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "POSSP im. Juliana Fa\u0142ata \u2013 Gimnazjum",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.68,
-    "id_szkoly": 19636
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 94.675956178677296,
+          "egz_norm_std": 11.956608113743208,
+          "probka": 31.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 109.47498036429792,
+          "egz_norm_std": 11.108714227610095,
+          "probka": 31.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.28820864884734,
+          "egz_norm_std": 8.5378628921411313,
+          "probka": 29.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 107.75211871845207,
+          "egz_norm_std": 7.3262460267843448,
+          "probka": 29.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 100.76125628335386,
+          "egz_norm_std": 10.883349833733561,
+          "probka": 35.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 109.07442165995005,
+          "egz_norm_std": 11.863796817002427,
+          "probka": 35.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.30059170784456,
+          "egz_norm_std": 7.6636917229120805,
+          "probka": 26.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 111.45434310341427,
+          "egz_norm_std": 9.8809514964581275,
+          "probka": 26.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 104.17907140176986,
+          "egz_norm_std": 10.073920498670168,
+          "probka": 21.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 109.47170826682043,
+          "egz_norm_std": 10.975273253179157,
+          "probka": 21.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 106.09291791201707,
+          "egz_norm_std": 9.6956604168614486,
+          "probka": 23.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 107.54914249819386,
+          "egz_norm_std": 10.381940625103725,
+          "probka": 23.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.64136549254684,
+          "egz_norm_std": 7.0561100121806035,
+          "probka": 24.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 112.88900673505863,
+          "egz_norm_std": 8.2513683736554082,
+          "probka": 24.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 98.079478838935927,
+          "egz_norm_std": 9.3253568050603306,
+          "probka": 17.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 100.48739103091609,
+          "egz_norm_std": 13.195064138205895,
+          "probka": 17.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.51242449231769,
+          "egz_norm_std": 13.760992044647825,
+          "probka": 26.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 104.52359555750357,
+          "egz_norm_std": 10.935043757965335,
+          "probka": 26.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 95.912343294923872,
+          "egz_norm_std": 11.502416011697091,
+          "probka": 20.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 98.49329183124388,
+          "egz_norm_std": 8.1239066072691699,
+          "probka": 20.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 110.54933270554571,
+          "egz_norm_std": 10.995106965051733,
+          "probka": 24.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 102.47311839307434,
+          "egz_norm_std": 12.641833745637875,
+          "probka": 24.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 103.18956683021382,
+          "egz_norm_std": 12.385503585356087,
+          "probka": 24.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 97.848052141067981,
+          "egz_norm_std": 10.303735146167654,
+          "probka": 24.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 103.04514583923121,
+          "egz_norm_std": 11.698176723089228,
+          "probka": 16.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 97.575876730275439,
+          "egz_norm_std": 7.2047701056645526,
+          "probka": 16.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 100.51901735257105,
+          "egz_norm_std": 10.963920610299775,
+          "probka": 16.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 100.14556721563049,
+          "egz_norm_std": 11.774506072419332,
+          "probka": 16.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.68
   },
   {
-    "www": null,
+    "www": "http://www.kopalinski.edu.pl",
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "Gen. Boruty-Spiechowicza 24",
     "dla_doroslych": false,
-    "ewd_mp": -3.04,
-    "telefon": null,
+    "sr_wynik_egz_mp": 96.47,
+    "telefon": 338165240.0,
     "bs_sr_wynik_egz_hum": 2.0,
     "sr_wynik_egz_obu_gwiazdki_pow": 2.0,
+    "publiczna_y": false,
     "przyszpitalna": false,
     "lng": 19.0597445,
-    "liczba_uczniow": null,
     "id_powiatu": 61,
     "ewd_max90_hum": 1.87,
-    "bliskosc": null,
     "ewd_min90_hum": -1.45,
-    "liczba_dopasowan": null,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 0.21,
     "korelacja_mp": 0.62,
-    "jak": null,
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.830644899999996,
+    "stdev_wynik_egz_mp": 12.83,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": null,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 96.47,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.65,
     "sr_wynik_egz_mp_gwiazdki_pow": 2.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 1.0,
     "ewd_max90_mp": -1.44,
-    "stdev_wynik_egz_mp": 12.83,
+    "fax": 338165240.0,
     "stdev_wynik_egz_hum": 12.82,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 97.28,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.3,
     "ewd_min90_mp": -4.63,
-    "lat": 49.8306449,
+    "ewd_mp": -3.04,
+    "lp_sio": 5738.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 98.1,
     "bs_ewd_mp": 1.25,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum Mistrzostwa Sportowego",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 2.0,
-    "id_szkoly": 19633
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 100.08179513309813,
+          "egz_norm_std": 8.1873494380065477,
+          "probka": 16.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 102.98410394110876,
+          "egz_norm_std": 11.000681596481952,
+          "probka": 16.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 106.61376809062294,
+          "egz_norm_std": 5.6534466511207535,
+          "probka": 20.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 105.25303603621396,
+          "egz_norm_std": 8.0707394555977494,
+          "probka": 20.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.220236263357791,
+          "egz_norm_std": 10.045617631103118,
+          "probka": 8.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 88.134749963395194,
+          "egz_norm_std": 7.7238012843686752,
+          "probka": 8.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 99.800349713934992,
+          "egz_norm_std": 8.9199096151627302,
+          "probka": 16.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 98.928201824959501,
+          "egz_norm_std": 12.403494037269851,
+          "probka": 16.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 89.382073065836238,
+          "egz_norm_std": 11.15675538073199,
+          "probka": 13.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 91.66281968411144,
+          "egz_norm_std": 11.756435842137297,
+          "probka": 13.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 96.48622192036396,
+          "egz_norm_std": 12.952150533806126,
+          "probka": 10.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 99.409560611442203,
+          "egz_norm_std": 7.8104190872169541,
+          "probka": 10.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 101.81879697887152,
+          "egz_norm_std": 10.629398511183613,
+          "probka": 31.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 96.894221518244038,
+          "egz_norm_std": 9.1901697783748588,
+          "probka": 31.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 91.179872602771056,
+          "egz_norm_std": 15.029730194873284,
+          "probka": 8.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 90.471512101199792,
+          "egz_norm_std": 12.485276797015972,
+          "probka": 8.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 94.168664710605867,
+          "egz_norm_std": 10.091922287857773,
+          "probka": 10.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 95.576041043209031,
+          "egz_norm_std": 9.8776458912858871,
+          "probka": 10.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 97.187613187371085,
+          "egz_norm_std": 8.618910276947048,
+          "probka": 8.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 94.38295910941855,
+          "egz_norm_std": 8.569460744485653,
+          "probka": 8.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 104.21167426498423,
+          "egz_norm_std": 13.071159684526176,
+          "probka": 19.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 94.198606214189141,
+          "egz_norm_std": 14.425029805891173,
+          "probka": 19.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 100.43004357343609,
+          "egz_norm_std": 14.516157680122054,
+          "probka": 19.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 98.757957246932946,
+          "egz_norm_std": 11.905164896569689,
+          "probka": 19.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 98.105356518511798,
+          "egz_norm_std": 12.122749771007545,
+          "probka": 20.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 98.485417740632712,
+          "egz_norm_std": 11.770701347884906,
+          "probka": 20.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 94.466445192861158,
+          "egz_norm_std": 12.404453682517829,
+          "probka": 20.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 95.753802305545278,
+          "egz_norm_std": 12.269975192998734,
+          "probka": 20.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 2.0
   },
   {
-    "www": null,
+    "www": NaN,
     "rok": 2013,
-    "publiczna": true,
+    "liczba_uczniow": NaN,
     "adres": "Wyspia\u0144skiego 5A",
     "dla_doroslych": false,
-    "ewd_mp": -2.72,
-    "telefon": null,
+    "sr_wynik_egz_mp": 104.91,
+    "telefon": NaN,
     "bs_sr_wynik_egz_hum": 1.44,
     "sr_wynik_egz_obu_gwiazdki_pow": 3.0,
+    "publiczna_y": NaN,
     "przyszpitalna": false,
-    "lng": 19.0383369,
-    "liczba_uczniow": null,
+    "lng": 19.038336899999997,
     "id_powiatu": 61,
     "ewd_max90_hum": 2.86,
-    "bliskosc": null,
     "ewd_min90_hum": 0.25,
-    "liczba_dopasowan": null,
-    "fax": null,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 1.55,
     "korelacja_mp": 0.64,
-    "jak": null,
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.821014500000004,
+    "stdev_wynik_egz_mp": 12.98,
     "ewd_mp_gwiazdki_pow": 2.0,
-    "id_sio": null,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 4.0,
-    "sr_wynik_egz_mp": 104.91,
+    "publiczna_x": true,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.71,
     "sr_wynik_egz_mp_gwiazdki_pow": 3.0,
     "id_wojewodztwa": 24,
+    "odl_dop": NaN,
     "ewd_max90_mp": -1.47,
-    "stdev_wynik_egz_mp": 12.98,
+    "fax": NaN,
     "stdev_wynik_egz_hum": 11.51,
+    "specjalna_y": NaN,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 106.97,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.02,
     "ewd_min90_mp": -3.97,
-    "lat": 49.8210145,
+    "ewd_mp": -2.72,
+    "lp_sio": NaN,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 109.03,
     "bs_ewd_mp": 0.98,
     "ewd_hum_gwiazdki_pow": 3.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "POSM i i II stopnia im. Stanis\u0142awa Moniuszki \u2013 Gimnazjum",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.52,
-    "id_szkoly": 19634
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 102.58206353967032,
+          "egz_norm_std": 11.807204973996036,
+          "probka": 28.0
+        },
+        "rok": 2002,
+        "gh": {
+          "egz_norm_sr": 108.07861425420971,
+          "egz_norm_std": 11.503317466460867,
+          "probka": 28.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.42143780338272,
+          "egz_norm_std": 11.337534057659983,
+          "probka": 31.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 123.65414183212143,
+          "egz_norm_std": 9.5632380866273934,
+          "probka": 31.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.49370362767384,
+          "egz_norm_std": 9.4411049463235877,
+          "probka": 31.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 110.22403270048589,
+          "egz_norm_std": 11.047275496292308,
+          "probka": 31.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.94076016333391,
+          "egz_norm_std": 10.922268775132792,
+          "probka": 32.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 107.13878380566298,
+          "egz_norm_std": 10.567117465539331,
+          "probka": 32.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.69871179940924,
+          "egz_norm_std": 9.5372717251665335,
+          "probka": 29.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 109.59457424687479,
+          "egz_norm_std": 11.578753727880256,
+          "probka": 29.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.99137501729713,
+          "egz_norm_std": 11.666544171200647,
+          "probka": 34.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 106.45187262787528,
+          "egz_norm_std": 7.3060509423837816,
+          "probka": 34.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.78611355587292,
+          "egz_norm_std": 10.129869894603832,
+          "probka": 27.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 112.70461332776209,
+          "egz_norm_std": 9.0734504615776093,
+          "probka": 27.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.62777111161812,
+          "egz_norm_std": 9.0878819180828003,
+          "probka": 28.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 103.24788552628695,
+          "egz_norm_std": 10.021519382265264,
+          "probka": 28.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.47380957220123,
+          "egz_norm_std": 12.802948042829026,
+          "probka": 30.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 106.86909596394275,
+          "egz_norm_std": 10.845239558847821,
+          "probka": 30.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 105.28656921893619,
+          "egz_norm_std": 8.9827584323070511,
+          "probka": 31.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 109.32955244188319,
+          "egz_norm_std": 10.653078613239042,
+          "probka": 31.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 110.80716545385864,
+          "egz_norm_std": 11.496516457644315,
+          "probka": 29.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 105.98627195234184,
+          "egz_norm_std": 8.0213472253760312,
+          "probka": 29.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 108.45120000994156,
+          "egz_norm_std": 12.156716837752874,
+          "probka": 29.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 109.75221683940256,
+          "egz_norm_std": 12.612646580163915,
+          "probka": 29.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 110.75313292842873,
+          "egz_norm_std": 11.644768981035837,
+          "probka": 23.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 103.76817522706156,
+          "egz_norm_std": 8.8384806387088943,
+          "probka": 23.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 105.43752871904672,
+          "egz_norm_std": 10.107746305925165,
+          "probka": 23.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 104.76390651787466,
+          "egz_norm_std": 14.540826294405825,
+          "probka": 23.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.52
   },
   {
     "www": "http://www.zsktk.edu.pl",
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "Krasi\u0144skiego 17",
     "dla_doroslych": false,
-    "ewd_mp": 8.1,
+    "sr_wynik_egz_mp": 119.76,
     "telefon": 338116888.0,
     "bs_sr_wynik_egz_hum": 0.99,
     "sr_wynik_egz_obu_gwiazdki_pow": 5.0,
+    "publiczna_y": false,
     "przyszpitalna": false,
-    "lng": 19.0432379,
-    "liczba_uczniow": null,
+    "lng": 19.043237899999998,
     "id_powiatu": 61,
     "ewd_max90_hum": 6.29,
-    "bliskosc": 100.0,
     "ewd_min90_hum": 4.28,
-    "liczba_dopasowan": 1.0,
-    "fax": 338116888.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": 5.29,
     "korelacja_mp": 0.73,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.824178100000005,
+    "stdev_wynik_egz_mp": 11.76,
     "ewd_mp_gwiazdki_pow": 5.0,
-    "id_sio": 5684.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 5.0,
-    "sr_wynik_egz_mp": 119.76,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.79,
     "sr_wynik_egz_mp_gwiazdki_pow": 5.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 9.06,
-    "stdev_wynik_egz_mp": 11.76,
+    "fax": 338116888.0,
     "stdev_wynik_egz_hum": 10.3,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-300",
     "sr_wynik_egz_obu": 117.87,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 0.79,
     "ewd_min90_mp": 7.13,
-    "lat": 49.8241781,
+    "ewd_mp": 8.1,
+    "lp_sio": 5740.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 115.99,
     "bs_ewd_mp": 0.75,
     "ewd_hum_gwiazdki_pow": 4.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum Katolickiego Towarzystwa Kulturalnego",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 1.04,
-    "id_szkoly": 19635
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 119.28567288576151,
+          "egz_norm_std": 12.577320148911483,
+          "probka": 10.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 126.98023322132728,
+          "egz_norm_std": 9.5794298163881422,
+          "probka": 14.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 124.06298217250617,
+          "egz_norm_std": 10.399084734009753,
+          "probka": 19.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 120.63156934647623,
+          "egz_norm_std": 11.494029315385225,
+          "probka": 19.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 117.29762544300777,
+          "egz_norm_std": 9.8641811622528976,
+          "probka": 26.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 115.87825791596217,
+          "egz_norm_std": 11.41631799386102,
+          "probka": 26.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 124.0151018667094,
+          "egz_norm_std": 12.944294716366775,
+          "probka": 38.0
+        },
+        "rok": 2008,
+        "gh": {
+          "egz_norm_sr": 120.25753674977894,
+          "egz_norm_std": 9.7697418832808562,
+          "probka": 38.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 122.83717843123449,
+          "egz_norm_std": 13.179154588775694,
+          "probka": 39.0
+        },
+        "rok": 2009,
+        "gh": {
+          "egz_norm_sr": 120.11292215882074,
+          "egz_norm_std": 12.186578851251905,
+          "probka": 39.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 121.44256141377392,
+          "egz_norm_std": 11.577675994077469,
+          "probka": 40.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 115.04480438431612,
+          "egz_norm_std": 11.289325965361297,
+          "probka": 40.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 120.38540753775723,
+          "egz_norm_std": 13.794289611439686,
+          "probka": 55.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 116.75931557656985,
+          "egz_norm_std": 11.305732937857295,
+          "probka": 56.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 120.89125074348091,
+          "egz_norm_std": 10.930542077411623,
+          "probka": 40.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 118.48514855214572,
+          "egz_norm_std": 12.240678307559905,
+          "probka": 40.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 117.28169980566081,
+          "egz_norm_std": 13.053045218954013,
+          "probka": 40.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 118.64020542254784,
+          "egz_norm_std": 14.984688328804786,
+          "probka": 40.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 112.89821765783293,
+          "egz_norm_std": 7.9883303668720389,
+          "probka": 38.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 115.87517101640732,
+          "egz_norm_std": 11.195512832275202,
+          "probka": 38.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 109.36186893809996,
+          "egz_norm_std": 11.747745562821876,
+          "probka": 38.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 112.37670803613184,
+          "egz_norm_std": 12.914237404895607,
+          "probka": 38.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 1.04
   },
   {
     "www": "http://www.bsm.bielsko.pl",
     "rok": 2013,
-    "publiczna": false,
+    "liczba_uczniow": NaN,
     "adres": "Ta\u0144skiego 5",
     "dla_doroslych": false,
-    "ewd_mp": -0.88,
+    "sr_wynik_egz_mp": 95.47,
     "telefon": 338297212.0,
     "bs_sr_wynik_egz_hum": 2.28,
     "sr_wynik_egz_obu_gwiazdki_pow": 2.0,
+    "publiczna_y": false,
     "przyszpitalna": false,
-    "lng": 18.9977364,
-    "liczba_uczniow": null,
+    "lng": 18.997736399999997,
     "id_powiatu": 61,
     "ewd_max90_hum": 1.95,
-    "bliskosc": 100.0,
     "ewd_min90_hum": -2.01,
-    "liczba_dopasowan": 1.0,
-    "fax": 338297221.0,
     "location_type": "RANGE_INTERPOLATED",
     "ewd_hum": -0.03,
     "korelacja_mp": 0.68,
-    "jak": "kod + ul_sim + nr_sim",
     "wojewodztwo": "\u015bl\u0105skie",
-    "specjalna": false,
+    "lat": 49.8138991,
+    "stdev_wynik_egz_mp": 11.16,
     "ewd_mp_gwiazdki_pow": 3.0,
-    "id_sio": 5683.0,
     "typ_szkoly": "gimn.",
     "powiat": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum_gwiazdki_pow": 2.0,
-    "sr_wynik_egz_mp": 95.47,
+    "publiczna_x": false,
     "gmina": "Bielsko-Bia\u0142a",
     "id_gminy": 1,
     "geolocalizer_count": 1.0,
     "korelacja_hum": 0.68,
     "sr_wynik_egz_mp_gwiazdki_pow": 2.0,
     "id_wojewodztwa": 24,
+    "odl_dop": 0.0,
     "ewd_max90_mp": 1.02,
-    "stdev_wynik_egz_mp": 11.16,
+    "fax": 338297221.0,
     "stdev_wynik_egz_hum": 11.41,
+    "specjalna_y": false,
+    "specjalna_x": false,
     "pna": "43-382",
     "sr_wynik_egz_obu": 95.99,
     "poczta": "Bielsko-Bia\u0142a",
     "bs_ewd_hum": 1.55,
     "ewd_min90_mp": -2.78,
-    "lat": 49.8138991,
+    "ewd_mp": -0.88,
+    "lp_sio": 5739.0,
     "miejscowosc": "Bielsko-Bia\u0142a",
     "sr_wynik_egz_hum": 96.5,
     "bs_ewd_mp": 1.48,
     "ewd_hum_gwiazdki_pow": 2.0,
-    "oddzialy": null,
+    "oddzialy": NaN,
     "nazwa": "Gimnazjum Bielskiej Szko\u0142y Mened\u017cer\u00f3w",
-    "procent_dziewczat": null,
-    "bs_sr_wynik_egz_mp": 2.19,
-    "id_szkoly": 19637
+    "procent_dziewczat": NaN,
+    "wyniki_z_lat": [
+      {
+        "gm": {
+          "egz_norm_sr": 97.071601298776727,
+          "egz_norm_std": 12.811162008706775,
+          "probka": 32.0
+        },
+        "rok": 2003,
+        "gh": {
+          "egz_norm_sr": 108.77506920011101,
+          "egz_norm_std": 12.851472136305105,
+          "probka": 32.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 102.52349111469915,
+          "egz_norm_std": 11.433381547822659,
+          "probka": 13.0
+        },
+        "rok": 2004,
+        "gh": {
+          "egz_norm_sr": 110.18129436437175,
+          "egz_norm_std": 8.4684071119683217,
+          "probka": 13.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 106.42267600984941,
+          "egz_norm_std": 9.3374238599758179,
+          "probka": 9.0
+        },
+        "rok": 2005,
+        "gh": {
+          "egz_norm_sr": 106.12857089181415,
+          "egz_norm_std": 9.0002689413292671,
+          "probka": 9.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 109.00798748530909,
+          "egz_norm_std": 17.62443418796725,
+          "probka": 13.0
+        },
+        "rok": 2006,
+        "gh": {
+          "egz_norm_sr": 108.13632354687464,
+          "egz_norm_std": 9.0733444962696925,
+          "probka": 13.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 93.028587938100983,
+          "egz_norm_std": 8.5586507490508517,
+          "probka": 7.0
+        },
+        "rok": 2007,
+        "gh": {
+          "egz_norm_sr": 102.57338101300329,
+          "egz_norm_std": 7.132311880845525,
+          "probka": 7.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 107.92567861502415,
+          "egz_norm_std": 12.006862285491895,
+          "probka": 6.0
+        },
+        "rok": 2010,
+        "gh": {
+          "egz_norm_sr": 108.79414396070051,
+          "egz_norm_std": 11.920798133632927,
+          "probka": 6.0
+        }
+      },
+      {
+        "gm": {
+          "egz_norm_sr": 91.329419291083639,
+          "egz_norm_std": 12.123809488153135,
+          "probka": 10.0
+        },
+        "rok": 2011,
+        "gh": {
+          "egz_norm_sr": 92.481800567346227,
+          "egz_norm_std": 12.653238739072686,
+          "probka": 10.0
+        }
+      },
+      {
+        "rok": 2012,
+        "gh_p": {
+          "egz_norm_sr": 99.592260559371724,
+          "egz_norm_std": 13.685198265406394,
+          "probka": 10.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 95.622927625358642,
+          "egz_norm_std": 12.708767274879241,
+          "probka": 10.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 100.32780496023443,
+          "egz_norm_std": 9.3948077703873327,
+          "probka": 10.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 92.07089073573195,
+          "egz_norm_std": 13.507423479865571,
+          "probka": 10.0
+        }
+      },
+      {
+        "rok": 2013,
+        "gh_p": {
+          "egz_norm_sr": 100.32708187040291,
+          "egz_norm_std": 6.0505958934361486,
+          "probka": 7.0
+        },
+        "gm_m": {
+          "egz_norm_sr": 103.39902855093011,
+          "egz_norm_std": 19.187973053383885,
+          "probka": 7.0
+        },
+        "gh_h": {
+          "egz_norm_sr": 104.89946030339779,
+          "egz_norm_std": 9.0580077199766738,
+          "probka": 7.0
+        },
+        "gm_p": {
+          "egz_norm_sr": 103.10243363844258,
+          "egz_norm_std": 16.725228181114026,
+          "probka": 7.0
+        }
+      }
+    ],
+    "bs_sr_wynik_egz_mp": 2.19
   }
 ]
