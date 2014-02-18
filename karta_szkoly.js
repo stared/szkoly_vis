@@ -455,7 +455,7 @@ function wynikiWLatach (selektor) {
     .range([0, 250]);
 
   var skalaWynik = d3.scale.linear()
-    .domain([100 - 100/3, 100 + 100/3])
+    .domain([100 - 100/2, 100 + 100/2])
     .range([200, 0]);
 
   var xAxis = d3.svg.axis()
@@ -508,6 +508,7 @@ function wynikiWLatach (selektor) {
       .y0(function(d) {
         if (d.rok < 2012) {
           return skalaWynik(d.gh.egz_norm_sr - d.gh.egz_norm_std);
+          // a tylko niepewnosc pomaru? tj. dzielic przez Math.sqrt(d.gh.probka - 1)
         } else {
           return skalaWynik((d.gh_h.egz_norm_sr + d.gh_p.egz_norm_sr)/2 - (d.gh_h.egz_norm_std + d.gh_p.egz_norm_std)/2);
         }
@@ -522,7 +523,7 @@ function wynikiWLatach (selektor) {
 
     this.sciezka_hum
       .datum(wyniki_z_lat.filter(function (d) {return d.gh || d.gh_h;}))
-      .transition().duration(500)
+      // .transition().duration(500)
       .attr("d", sciezka_hum_punkty);
 
     var sciezka_mp_punkty = d3.svg.area()
@@ -544,7 +545,7 @@ function wynikiWLatach (selektor) {
 
     this.sciezka_mp
       .datum(wyniki_z_lat.filter(function (d) {return d.gm || d.gm_m;}))
-      .transition().duration(500)
+      // .transition().duration(500)
       .attr("d", sciezka_mp_punkty);
 
   };
