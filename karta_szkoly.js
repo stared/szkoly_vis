@@ -86,6 +86,8 @@ function init () {
   wskaznik_ewd_hum = new widget_wskaznik_ewd("#wskazniki #ewd_hum", "EWD hum.");
   wskaznik_ewd_mp = new widget_wskaznik_ewd("#wskazniki #ewd_mp", "EWD m.-p.");
 
+  w_czasie = new wynikiWLatach("#w_czasie");
+
 }
 
 
@@ -248,6 +250,8 @@ function update () {
   wskaznik_mp.uaktualnij(wybranaDana.sr_wynik_egz_mp);
   wskaznik_ewd_hum.uaktualnij(wybranaDana.ewd_min90_hum, wybranaDana.ewd_max90_hum);
   wskaznik_ewd_mp.uaktualnij(wybranaDana.ewd_min90_mp, wybranaDana.ewd_max90_mp);
+
+  w_czasie.uaktualnij(wybranaDana.wyniki_z_lat);
 
 }
 
@@ -437,6 +441,114 @@ function widget_wskaznik_ewd (selector, nazwa) {
           .style('opacity', 0);
     }
   };
+}
+
+
+function wynikiWLatach (selektor) {
+
+  this.svg = d3.select(selektor).append("svg")
+    .attr("width", 400)
+    .attr("height", 250);
+
+  var skalaCzas = d3.time.scale()
+    .domain([new Date(2002, 0, 1), new Date(2013, 0, 1)])
+    .range([0, 250]);
+
+  var skalaWynik = d3.scale.linear()
+    .domain([100 - 100/3, 100 + 100/3])
+    .range([200, 0]);
+
+  var xAxis = d3.svg.axis()
+    .scale(skalaCzas)
+    .orient("bottom")
+    // .ticks(6)
+    .tickSize(1);
+    // .tickFormat(d3.format(".2g"));
+
+  var yAxis = d3.svg.axis()
+    .scale(skalaWynik)
+    .orient("left")
+    .ticks(6)
+    .tickSize(1);
+    // .tickFormat(d3.format(".2g"));
+      
+
+  this.svg
+    .append('g')
+      .attr('class', 'os_x')
+      .attr("transform", "translate(" + 40 + "," + 200 + ")")
+      .call(xAxis)
+    .selectAll("text")
+      .attr("y", 0)
+      .attr("x", 9)
+      .attr("dy", ".35em")
+      .attr("transform", "rotate(90)")
+      .style("text-anchor", "start");
+
+  this.svg
+    .append('g')
+      .attr('class', 'os_y')
+      .attr("transform", "translate(" + 40 + "," + 0 + ")")
+      .call(yAxis);
+
+  this.sciezki = this.svg.append('g')
+      .attr('class', 'sciezki')
+      .attr("transform", "translate(" + 40 + "," + 0 + ")")
+
+  this.sciezka_hum =  this.sciezki.append("path")
+    .attr("class", "sciezka_hum");
+
+  this.sciezka_mp =  this.sciezki.append("path")
+    .attr("class", "sciezka_mp");
+
+  this.uaktualnij  = function (wyniki_z_lat) {
+
+    var sciezka_hum_punkty = d3.svg.area()
+      .x(function(d) { return skalaCzas(new Date(d.rok, 0)); })
+      .y0(function(d) {
+        if (d.rok < 2012) {
+          return skalaWynik(d.gh.egz_norm_sr - d.gh.egz_norm_std);
+        } else {
+          return skalaWynik((d.gh_h.egz_norm_sr + d.gh_p.egz_norm_sr)/2 - (d.gh_h.egz_norm_std + d.gh_p.egz_norm_std)/2);
+        }
+      })
+      .y1(function(d) {
+        if (d.rok < 2012) {
+          return skalaWynik(d.gh.egz_norm_sr + d.gh.egz_norm_std);
+        } else {
+          return skalaWynik((d.gh_h.egz_norm_sr + d.gh_p.egz_norm_sr)/2 + (d.gh_h.egz_norm_std + d.gh_p.egz_norm_std)/2);
+        }
+      });
+
+    this.sciezka_hum
+      .datum(wyniki_z_lat.filter(function (d) {return d.gh || d.gh_h;}))
+      .transition().duration(500)
+      .attr("d", sciezka_hum_punkty);
+
+    var sciezka_mp_punkty = d3.svg.area()
+      .x(function(d) { return skalaCzas(new Date(d.rok, 0)); })
+      .y0(function(d) {
+        if (d.rok < 2012) {
+          return skalaWynik(d.gm.egz_norm_sr - d.gm.egz_norm_std);
+        } else {
+          return skalaWynik((d.gm_m.egz_norm_sr + d.gm_p.egz_norm_sr)/2 - (d.gm_m.egz_norm_std + d.gm_p.egz_norm_std)/2);
+        }
+      })
+      .y1(function(d) {
+        if (d.rok < 2012) {
+          return skalaWynik(d.gm.egz_norm_sr + d.gm.egz_norm_std);
+        } else {
+          return skalaWynik((d.gm_m.egz_norm_sr + d.gm_p.egz_norm_sr)/2 + (d.gm_m.egz_norm_std + d.gm_p.egz_norm_std)/2);
+        }
+      });
+
+    this.sciezka_mp
+      .datum(wyniki_z_lat.filter(function (d) {return d.gm || d.gm_m;}))
+      .transition().duration(500)
+      .attr("d", sciezka_mp_punkty);
+
+  };
+ 
 }
 
 
