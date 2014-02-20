@@ -73,6 +73,10 @@ div#w_czasie {
 	opacity: 1;
 }
 
+.wybrany {
+	opacity: 1;
+}
+
 span.plakietka {
 	padding: 2px;
 	background: #aea;

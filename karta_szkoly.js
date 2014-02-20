@@ -44,6 +44,9 @@ function init () {
   skala = d3.scale.linear()
     .domain([100 - 100/mult, 100 + 100/mult])
     .range([0, 200]);
+  skala_kolorow = d3.scale.linear()
+    .domain([-5, 0, 5])
+    .range(['#a55', '#777', '#5a5']);
 
   var xAxis = d3.svg.axis()
     .scale(skala)
@@ -182,12 +185,15 @@ function update () {
   var odl_paskowa = 200 / Math.max(dane.length, 20);
 
   paskownia_hum
+    .attr("class", function (d, i) {
+      return i === wybraneId ? "pasek wybrany" : "pasek";
+    })
     .attr("x", function (d) { return skala(d.sr_wynik_egz_hum - d.stdev_wynik_egz_hum); })
     .attr("y", function (d, i) { return odl_paskowa * kolejnosc_hum[i]; } )
     .attr("width", function (d) { return 2 * mult * d.stdev_wynik_egz_hum; })
     .attr("height", 0.8 * odl_paskowa)
     .style("fill", function (d, i) {
-      return i == wybraneId ? "#a55" : "#5a5";
+      return skala_kolorow( (d.ewd_min90_hum + d.ewd_max90_hum)/2 );
     })
     .on('mouseover', function (d) {
       var wklad = d.nazwa + "<br>" +
@@ -220,12 +226,15 @@ function update () {
   var odl_paskowa = 200 / Math.max(dane.length, 20);
 
   paskownia_mp
+    .attr("class", function (d, i) {
+      return i === wybraneId ? "pasek wybrany" : "pasek";
+    })
     .attr("x", function (d) { return skala(d.sr_wynik_egz_mp - d.stdev_wynik_egz_mp); })
     .attr("y", function (d, i) { return odl_paskowa * kolejnosc_mp[i]; } )
     .attr("width", function (d) { return 2 * mult * d.stdev_wynik_egz_mp; })
     .attr("height", 0.8 * odl_paskowa)
     .style("fill", function (d, i) {
-      return i == wybraneId ? "#a55" : "#5a5";
+      return skala_kolorow( (d.ewd_min90_hum + d.ewd_max90_hum)/2 );
     })
     .on('mouseover', function (d) {
       var wklad = d.nazwa + "<br>" +
