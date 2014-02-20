@@ -41,12 +41,6 @@ div#wskazniki {
 	left: 20px;
 }
 
-div#porownania {
-	position: absolute;
-	top: 550px;
-	left: 500px;
-}
-
 div#porownania_paski_hum {
 	position: absolute;
 	top: 230px;

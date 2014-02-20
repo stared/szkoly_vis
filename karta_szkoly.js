@@ -54,10 +54,6 @@ function init () {
     .ticks(6)
     .tickSize(1);
     // .tickFormat(d3.format(".2g"));
-
-  porownania = d3.select("div#porownania").append("svg")
-    .attr("width", 400)
-    .attr("height", 200);
       
 
   kolejnosc_hum = range(dane.length).sort(function (i, j) {
@@ -137,38 +133,6 @@ function update () {
   //     .style("opacity", 0);
   // }
 
-  porownania = d3.select("div#porownania svg").selectAll('ellipse').data(dane);
-
-  var skala2d = d3.scale.linear()
-    .domain([100 - 100/3, 100 + 100/3])
-    .range([0, 400]);
-
-  porownania.enter()
-    .append('ellipse')
-      .attr('class', 'pasek')
-      .attr("cx", function (d) { return skala2d((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2); })
-      .attr("cy", function (d) { return -skala2d(d.sr_wynik_egz_hum - d.sr_wynik_egz_mp) +  skala2d(0) + 50; })
-      .attr("rx", function (d) { return 5; })
-      .attr("ry", function (d) { return 5; })
-      .style("opacity", 0.3);
-
-  porownania
-    .style("fill", function (d, i) {
-      return i == wybraneId ? "#a00" : "#0a0";
-    })
-    .on('mouseover', function (d) {
-      var wklad = d.nazwa + "<br>" +
-        "Śr. wyniku z obu egzaminów:</br>" +
-        ((d.sr_wynik_egz_hum + d.sr_wynik_egz_mp)/2).toFixed(1) + "<br>" +
-        "Różnica wyniku hum. względem mat.-przyr.:<br>" +
-        (d.sr_wynik_egz_hum - d.sr_wynik_egz_mp).toFixed(1);
-      tooltipShow(wklad);
-    })
-    .on('mouseout', function () { tooltipOut(); })
-    .on('click', function (d, i) {
-      wybraneId = i;
-      update();
-    });
 
   //
   // Wyniki human
