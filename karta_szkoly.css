@@ -92,9 +92,17 @@ span.plakietka {
 	opacity: 0.5;
 }
 
+.sciezka_hum:hover {
+	opacity: 1;
+}
+
 .sciezka_mp {
 	fill: steelblue;
 	opacity: 0.5;
+}
+
+.sciezka_mp:hover {
+	opacity: 0.8;
 }
 
 div.tooltip
