@@ -26,20 +26,6 @@ function init () {
         .attr("value", function (d, i) { return i; } )
         .text(function (d) {return d.nazwa; });
 
-  // demog = d3.select("div#demografia").append("svg")
-  //   .attr("width", 100)
-  //   .attr("height", 20);
-
-  // demog.append("rect")
-  //   .attr("id", "xx")
-  //   .attr("fill", "#f88")
-  //   .attr("height", 20);
-
-  // demog.append("rect")
-  //   .attr("id", "xy")
-  //   .attr("fill", "#88f")
-  //   .attr("height", 20);
-
   mult = 3;
   skala = d3.scale.linear()
     .domain([100 - 100/mult, 100 + 100/mult])
@@ -53,7 +39,6 @@ function init () {
     .orient("bottom")
     .ticks(6)
     .tickSize(1);
-    // .tickFormat(d3.format(".2g"));
       
 
   kolejnosc_hum = range(dane.length).sort(function (i, j) {
@@ -110,28 +95,10 @@ function update () {
   d3.select("#demografia #klasy").html("Liczba klas: " + (wybranaDana.oddzialy  || "(brak danych)"));
   if (wybranaDana.liczba_uczniow != null) {
     d3.select("#demografia #wielkosc_klasy").html("Śr. wielkość klasy: " + (wybranaDana.liczba_uczniow/wybranaDana.oddzialy).toFixed(1));
-    // d3.select("#demografia #dziewczeta").html("Dziewcząt: " + wybranaDana.procent_dziewczat.toFixed(1) + "%");
-    // d3.select("#demografia #chlopcy").html("Chłopców: " + (100 - wybranaDana.procent_dziewczat).toFixed(1) + "%");
   } else {
     d3.select("#demografia #wielkosc_klasy").html("Śr. wielkość klasy: (brak danych)");
-    // d3.select("#demografia #dziewczeta").html("Dziewcząt: (brak danych)");
-    // d3.select("#demografia #chlopcy").html("Chłopcy: (brak danych)");
   }
 
-  // if (wybranaDana.procent_dziewczat != null) {
-
-  //   demog.select("#xx").transition().duration(500)
-  //     .style("opacity", 1)
-  //     .attr("width", wybranaDana.procent_dziewczat);
-  
-  //   demog.select("#xy").transition().duration(500)
-  //     .style("opacity", 1)
-  //     .attr("x", wybranaDana.procent_dziewczat)
-  //     .attr("width", (100 - wybranaDana.procent_dziewczat));
-  // } else {
-  //   demog.selectAll('rect').transition().duration(500)
-  //     .style("opacity", 0);
-  // }
 
 
   //
@@ -434,16 +401,13 @@ function wynikiWLatach (selektor) {
   var xAxis = d3.svg.axis()
     .scale(skalaCzas)
     .orient("bottom")
-    // .ticks(6)
     .tickSize(1);
-    // .tickFormat(d3.format(".2g"));
 
   var yAxis = d3.svg.axis()
     .scale(skalaWynik)
     .orient("left")
     .ticks(6)
     .tickSize(1);
-    // .tickFormat(d3.format(".2g"));
       
 
   this.svg
@@ -496,7 +460,6 @@ function wynikiWLatach (selektor) {
 
     this.sciezka_hum
       .datum(wyniki_z_lat.filter(function (d) {return d.gh || d.gh_h;}))
-      // .transition().duration(500)
       .attr("d", sciezka_hum_punkty);
 
     var sciezka_mp_punkty = d3.svg.area()
@@ -518,7 +481,6 @@ function wynikiWLatach (selektor) {
 
     this.sciezka_mp
       .datum(wyniki_z_lat.filter(function (d) {return d.gm || d.gm_m;}))
-      // .transition().duration(500)
       .attr("d", sciezka_mp_punkty);
 
   };
