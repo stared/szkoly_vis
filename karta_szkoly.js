@@ -65,10 +65,10 @@ function init () {
         .attr("transform", "translate(" + 0 + "," + 200 + ")")
         .call(xAxis);
 
-  wskaznik_hum = new widget_wskaznik("#wskazniki #hum", "Egz. humanistyczny");
-  wskaznik_mp = new widget_wskaznik("#wskazniki #mp", "Egz. mat-przyr.");
-  wskaznik_ewd_hum = new widget_wskaznik_ewd("#wskazniki #ewd_hum", "EWD hum.");
-  wskaznik_ewd_mp = new widget_wskaznik_ewd("#wskazniki #ewd_mp", "EWD m.-p.");
+  wskaznik_hum = new widget_wskaznik("#hum", "średni wynik");
+  wskaznik_mp = new widget_wskaznik("#mp", "średni wynik");
+  wskaznik_ewd_hum = new widget_wskaznik_ewd("#ewd_hum", "EWD");
+  wskaznik_ewd_mp = new widget_wskaznik_ewd("#ewd_mp", "EWD");
 
   w_czasie = new wynikiWLatach("#w_czasie");
 
@@ -257,14 +257,14 @@ function widget_wskaznik (selector, nazwa) {
 
   var zakres = [60, 140];
 
-  this.etykieta = d3.select(selector).append("span");
-  d3.select(selector).append("br");
-  d3.select(selector).append("br");
   this.nazwa = nazwa;
 
   this.svg = d3.select(selector).append("svg")
     .attr("width", 150)
     .attr("height", 20);
+
+  d3.select(selector).append("br");
+  this.etykieta = d3.select(selector).append("span");
 
   this.skala = d3.scale.linear()
     .domain(zakres)
@@ -322,14 +322,14 @@ function widget_wskaznik_ewd (selector, nazwa) {
 
   var zakres = [-10, 10];
 
-  this.etykieta = d3.select(selector).append("span");
-  d3.select(selector).append("br");
-  d3.select(selector).append("br");
   this.nazwa = nazwa;
 
   this.svg = d3.select(selector).append("svg")
     .attr("width", 150)
     .attr("height", 20);
+
+  d3.select(selector).append("br");
+  this.etykieta = d3.select(selector).append("span");
 
   this.skala = d3.scale.linear()
     .domain(zakres)

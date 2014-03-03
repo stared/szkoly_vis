@@ -7,12 +7,39 @@ div {
 	border-radius: 4px;
 }
 
-div#wybor {
+#lista_wizualizacji {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	display: none;
+	width: 650px;
 }
+
+.table {
+	display: table;
+	width: 100%;
+}
+.row {
+	display: table-row;
+	width: 100%;
+}
+.column {
+	display: table-column;
+	width: 100%;
+}
+.cell {
+	display: table-cell;
+	/*width: 100%;*/
+}
+.halfcell {
+	display: table-cell;
+	width: 50%;
+}
+
+.title {
+	font-weight: bold;
+}
+
+
 
 div#demografia {
 	position: absolute;
@@ -39,29 +66,6 @@ div#plakietki {
 	display: none;
 }
 
-div#wskazniki {
-	position: absolute;
-	top: 230px;
-	left: 20px;
-}
-
-div#porownania_paski_hum {
-	position: absolute;
-	top: 230px;
-	left: 500px;
-}
-
-div#porownania_paski_mp {
-	position: absolute;
-	top: 230px;
-	left: 750px;
-}
-
-div#w_czasie {
-	position: absolute;
-	top: 580px;
-	left: 20px;
-}
 
 .pasek {
 	opacity: 0.5;

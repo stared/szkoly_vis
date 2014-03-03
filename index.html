@@ -11,40 +11,94 @@
   <script src="d3.v3.min.js"></script>
   <script src="karta_szkoly.js"></script>
 
-  <div id='wybor'>
-    <select id='szkola'></select>
-  </div>
-  <div id='adres'>
-    <span id='nazwa'></span></br>
-    <span id='adres'></span></br>
-    <span id='kod_pocztowy'></span>
-    <span id='poczta'></span></br>
-    <a id='www' href=''></a></br>
-    <span id='tel'></span>
-  </div>
-  <div id='plakietki'></div>
-  <div id='demografia'>
-    <h4>Demografia</h4>
-    <span id='uczniowie'></span></br>
-    <span id='klasy'></span></br>
-    <span id='wielkosc_klasy'></span></br>
-    <span id='dziewczeta'></span></br>
-    <span id='chlopcy'></span></br>
-  </div>
-  <div id='wskazniki'>
-    <div id='hum'></div>
-    <div id='mp'></div>
-    <div id='ewd_hum'></div>
-    <div id='ewd_mp'></div>
-  </div>
-  <div id='porownania_paski_hum'>
-    <h4>Egz. część humanistyczna</h4>
-  </div>
-  <div id='porownania_paski_mp'>
-    <h4>Egz. część mat.-przyr.</h4>
-  </div>
-  <div id='w_czasie'>
-    <h4>Wynik w latach</h4>
+  <div id="lista_wizualizacji" class='table'>
+    <div id='wybor' class='row'>
+      <div class='cell'>
+        <select id='szkola'></select>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='cell'>
+        <span class="title">Jakie średnie wyniki egzaminacyjne osiągnęła szkoła w ostatnim roku (2013)?</span>
+      </div>
+    </div> 
+    <div class='row'>
+      <div class='cell'>
+        <div class='table'>
+          <div class='row'>
+            <div id='hum' class='halfcell'>
+              <span>część humanistyczna</span><br><br>
+            </div>
+            <div id='mp' class='halfcell'>
+              <span>część matematyczno-przyrodnicza</span><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='cell'>
+        <div class='table'>
+          <div class='row'>
+            <div id='porownania_paski_hum' class='halfcell'>
+              <span>część humanistyczna</span><br><br>
+            </div>
+            <div id='porownania_paski_mp' class='halfcell'>
+              <span>część matematyczno-przyrodnicza</span><br><br>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class='row'>
+      <div class='cell'>
+        <span class="title">Jakie średnie wyniki osiągała szkoła od pierwszego egzaminów w 2002 roku?</span>
+      </div>
+    </div> 
+    <div class='row'>
+      <div class='cell'>
+        <div id='w_czasie'>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='cell'>
+        <span class="title">Jaki jest wkład szkoły w postęp, który robią uczniowie w trakcie nauki w tym gimnazjum?</span>
+      </div>
+    </div> 
+    <div class='row'>
+      <div class='cell'>
+        <div class='table'>
+          <div class='row'>
+            <div id='ewd_hum' class='halfcell'>
+              <span>część humanistyczna</span><br><br>
+            </div>
+            <div id='ewd_mp' class='halfcell'>
+              <span>część matematyczno-przyrodnicza</span><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Poniżej aktualnie nieużywane -->
+    <div id='adres'>
+      <span id='nazwa'></span></br>
+      <span id='adres'></span></br>
+      <span id='kod_pocztowy'></span>
+      <span id='poczta'></span></br>
+      <a id='www' href=''></a></br>
+      <span id='tel'></span>
+    </div>
+    <div id='demografia'>
+      <h4>Demografia</h4>
+      <span id='uczniowie'></span></br>
+      <span id='klasy'></span></br>
+      <span id='wielkosc_klasy'></span></br>
+      <span id='dziewczeta'></span></br>
+      <span id='chlopcy'></span></br>
+    </div>
+    <div id='plakietki'></div>
   </div>
   <div class='tooltip' style="opacity: 0.001"></div>
 </body>
