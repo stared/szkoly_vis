@@ -387,7 +387,7 @@ function widget_wskaznik_ewd (selector, nazwa) {
 function wynikiWLatach (selektor) {
 
   this.svg = d3.select(selektor).append("svg")
-    .attr("width", 400)
+    .attr("width", 550)
     .attr("height", 250);
 
   var skalaCzas = d3.time.scale()
@@ -427,6 +427,34 @@ function wynikiWLatach (selektor) {
       .attr('class', 'os_y')
       .attr("transform", "translate(" + 40 + "," + 0 + ")")
       .call(yAxis);
+
+  var legenda = this.svg
+    .append('g')
+      .attr('class', 'legend')
+      .attr("transform", "translate(" + 320 + "," + 20 + ")");
+
+  legenda.append('rect')
+    .attr("class", "sciezka_hum")
+    .attr('width', 15)
+    .attr('height', 15);
+
+  legenda.append('rect')
+    .attr("class", "sciezka_mp")
+    .attr('y', 30)
+    .attr('width', 15)
+    .attr('height', 15);
+
+  legenda.append('text')
+      .attr("class", "legend")
+      .attr("x", 20)
+      .attr("y", 10)
+      .text("część humanistyczna");
+
+  legenda.append('text')
+      .attr("class", "legend")
+      .attr("x", 20)
+      .attr("y", 40)
+      .text("część matematyczno-przyrodnicza");
 
   this.sciezki = this.svg.append('g')
       .attr('class', 'sciezki')

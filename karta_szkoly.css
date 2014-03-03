@@ -109,3 +109,9 @@ div.tooltip
 	border-radius: 4px;
 	pointer-events: none;
 }
+
+text.legend {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill: #000;
+}
